@@ -14,7 +14,7 @@
 <#CommunesMap> a rr:TriplesMap ;
     rml:logicalSource [
         a rml:LogicalSource ;
-        rml:source "communes-france-2025.csv" ;
+        rml:source "communes-departement06.csv" ;
         rml:referenceFormulation ql:CSV ;
     ] ;
 
