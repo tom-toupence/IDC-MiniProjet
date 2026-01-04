@@ -1,0 +1,190 @@
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr:     <http://www.w3.org/ns/r2rml#> .
+@prefix rml:    <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql:     <http://semweb.mmlab.be/ns/ql#> .
+@prefix schema: <http://schema.org/> .
+@prefix ex:     <http://example.org/vocab#> .
+
+@base <http://example.org/> .
+
+# TriplesMap pour les COMMUNES
+
+<#CommunesMap> a rr:TriplesMap ;
+    rml:logicalSource [
+        a rml:LogicalSource ;
+        rml:source "communes-france-2025.csv" ;
+        rml:referenceFormulation ql:CSV ;
+    ] ;
+
+    # URI de chaque commune basée sur le code INSEE
+    rr:subjectMap [
+        rr:template "http://example.org/commune/{code_insee}" ;
+        rr:class schema:City ;
+    ] ;
+
+    # Nom de la commune
+   rr:predicateObjectMap [
+        rr:predicate schema:name ;
+        rr:objectMap [ rml:reference "nom_standard" ] ;
+    ] ;
+
+    # Code INSEE
+    rr:predicateObjectMap [
+        rr:predicate ex:codeInsee ;
+        rr:objectMap [ rml:reference "code_insee" ] ;
+    ] ;
+
+    # Code postal
+    rr:predicateObjectMap [
+        rr:predicate schema:postalCode ;
+        rr:objectMap [ rml:reference "code_postal" ] ;
+    ] ;
+
+    # Département
+    rr:predicateObjectMap [
+        rr:predicate ex:departement ;
+        rr:objectMap [ rml:reference "dep_nom" ] ;
+    ] ;
+
+    # Région
+    rr:predicateObjectMap [
+        rr:predicate ex:region ;
+        rr:objectMap [ rml:reference "reg_nom" ] ;
+    ] ;
+
+    # Population de la commune
+    rr:predicateObjectMap [
+        rr:predicate ex:population ;
+        rr:objectMap [
+            rml:reference "population" ;
+            rr:datatype xsd:integer
+        ]
+    ] .
+
+# TriplesMap pour les stations et les prix
+
+<#StationsMap> a rr:TriplesMap ;
+    rml:logicalSource [
+        a rml:LogicalSource ;
+        rml:source "prix-carburants-Departement06.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$[*]" ; # chaque station dans le tableau racine
+    ] ;
+
+    # URI de la station basée sur son id
+    rr:subjectMap [
+        rr:template "http://example.org/station/{id}" ;
+        rr:class schema:GasStation ;
+    ] ;
+
+    # Nom de la station = ville
+    rr:predicateObjectMap [
+        rr:predicate schema:name ;
+        rr:objectMap [ rml:reference "ville" ] ;
+    ] ;
+
+    # Adresse
+    rr:predicateObjectMap [
+        rr:predicate schema:streetAddress ;
+        rr:objectMap [ rml:reference "adresse" ] ;
+    ] ;
+
+    # Ville
+    rr:predicateObjectMap [
+        rr:predicate schema:addressLocality ;
+        rr:objectMap [ rml:reference "ville" ] ;
+    ] ;
+
+    # Code postal
+    rr:predicateObjectMap [
+        rr:predicate schema:postalCode ;
+        rr:objectMap [ rml:reference "cp" ] ;
+    ] ;
+
+    # Type de zone 
+    rr:predicateObjectMap [
+        rr:predicate ex:populationType ;
+        rr:objectMap [ rml:reference "pop" ] ;
+    ] ;
+
+    # Coordonnées géographiques 
+    rr:predicateObjectMap [
+        rr:predicate schema:latitude ;
+        rr:objectMap [
+            rml:reference "geom.lat" ;
+            rr:datatype xsd:decimal
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate schema:longitude ;
+        rr:objectMap [
+            rml:reference "geom.lon" ;
+            rr:datatype xsd:decimal
+        ]
+    ] ;
+
+    # Département, région, EPCI, etc.
+    rr:predicateObjectMap [
+        rr:predicate ex:depCode ;
+        rr:objectMap [ rml:reference "dep_code" ] ;
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ex:depName ;
+        rr:objectMap [ rml:reference "dep_name" ] ;
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ex:regCode ;
+        rr:objectMap [ rml:reference "reg_code" ] ;
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ex:regName ;
+        rr:objectMap [ rml:reference "reg_name" ] ;
+    ] ;
+
+    # Type de carburant
+    rr:predicateObjectMap [
+        rr:predicate ex:fuelType ;
+        rr:objectMap [ rml:reference "prix_nom" ] ;
+    ] ;
+
+    # Identifiant interne du prix (prix_id)
+    rr:predicateObjectMap [
+        rr:predicate ex:priceId ;
+        rr:objectMap [ rml:reference "prix_id" ] ;
+    ] ;
+
+    # Valeur du prix
+    rr:predicateObjectMap [
+        rr:predicate schema:price ;
+        rr:objectMap [
+            rml:reference "prix_valeur" ;
+            rr:datatype xsd:decimal
+        ]
+    ] ;
+
+    # Date de mise à jour du prix
+    rr:predicateObjectMap [
+        rr:predicate schema:priceValidUntil ;
+        rr:objectMap [
+            rml:reference "prix_maj" ;
+            rr:datatype xsd:dateTime
+        ]
+    ] ;
+
+    # Jointure entre la commune et la station
+    rr:predicateObjectMap [
+        rr:predicate ex:locatedInCommune ;
+        rr:objectMap [
+            rr:parentTriplesMap <#CommunesMap> ;
+            rr:joinCondition [
+                rr:child  "cp" ;
+                rr:parent "code_postal" ; 
+            ]
+        ]
+    ] .
