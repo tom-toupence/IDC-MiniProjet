@@ -6,4 +6,5 @@ departements
 outputs
 output_merged.ttl
 mappings
+prix-carburants-quotidien-cleaned.json
 .venv
