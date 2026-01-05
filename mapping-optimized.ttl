@@ -9,7 +9,7 @@
 
 @base <http://example.org/> .
 
-# TriplesMap pour les COMMUNES
+# TriplesMap pour les communes
 
 <#CommunesMap> a rr:TriplesMap ;
     rml:logicalSource [
@@ -63,7 +63,7 @@
         ]
     ] .
 
-# TriplesMap pour les STATIONS (physiques, sans prix)
+# TriplesMap pour les stations (physiques, sans prix)
 # On groupe par ID de station pour éviter les doublons
 
 <#StationsMap> a rr:TriplesMap ;
@@ -127,8 +127,7 @@
         ]
     ] .
 
-# TriplesMap pour les PRIX (offres de carburant)
-# Chaque ligne du JSON = une offre de prix
+# TriplesMap pour les prix des carburants
 
 <#PricesMap> a rr:TriplesMap ;
     rml:logicalSource [
