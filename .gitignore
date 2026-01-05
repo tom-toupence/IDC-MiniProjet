@@ -2,3 +2,8 @@ communes-france-2025.csv
 prix-carburants-quotidien.json
 prix-carburants-200.json
 prix-carburants-100.json
+departements
+outputs
+output_merged.ttl
+mappings
+.venv
