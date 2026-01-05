@@ -1,0 +1,30 @@
+PREFIX schema: <http://schema.org/>
+PREFIX ex:     <http://example.org/vocab#>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+
+SELECT
+  ?commune
+  ?communeName
+  ?postalCode
+  ?population
+  (COUNT(DISTINCT ?station) AS ?nbStations)
+  (MIN(?price) AS ?minPrice)
+  (AVG(?price) AS ?avgPrice)
+WHERE {
+  # --- Communes (CSV -> RDF) ---
+  ?commune a schema:City ;
+           schema:name ?communeName ;
+           schema:postalCode ?postalCode ;
+           ex:population ?population .
+
+  # --- Stations (JSON -> RDF) + jointure vers commune ---
+  ?station a schema:GasStation ;
+           ex:locatedInCommune ?commune ;
+           schema:price ?price .
+
+  # Optionnel : ignorer les toutes petites communes (ex: >= 5 000 habitants)
+  FILTER(xsd:integer(?population) >= 5000)
+}
+GROUP BY ?commune ?communeName ?postalCode ?population
+ORDER BY DESC(?population) ASC(?minPrice)
+LIMIT 20
