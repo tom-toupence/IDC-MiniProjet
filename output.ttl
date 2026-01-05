@@ -1310,376 +1310,250 @@
   schema:postalCode "06430" .
 
 <http://example.org/station/6000007> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06088>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6000007";
   schema:latitude 43.69233;
   schema:longitude 7.24991;
-  schema:name "NICE";
   schema:postalCode "06000";
   schema:price 1.767, 1.796, 1.906;
   schema:priceValidUntil "2025-11-29T06:00:00+00:00"^^xsd:dateTime, "2025-11-29T06:04:00+00:00"^^xsd:dateTime;
   schema:streetAddress "77 Promenade des Anglais" .
 
 <http://example.org/station/6000026> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "GPLc", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6000026";
   schema:latitude 43.707;
   schema:longitude 7.292;
-  schema:name "NICE";
   schema:postalCode "06300";
   schema:price 0.771, 0.959, 1.773, 1.809, 1.919;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "10 BOULEVARD ARMEE DES ALPES" .
 
 <http://example.org/station/6000028> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06088>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6000028";
   schema:latitude 43.706;
   schema:longitude 7.251;
-  schema:name "NICE";
   schema:postalCode "06000";
   schema:price 0.769, 1.759, 1.796, 1.906;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "29 BIS AV. PAUL ARENE" .
 
 <http://example.org/station/6000029> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06088>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6000029";
   schema:latitude 43.728;
   schema:longitude 7.282;
-  schema:name "NICE";
   schema:postalCode "06000";
   schema:price 1.675, 1.719, 1.794;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "57, av. J.RAYBAUD" .
 
 <http://example.org/station/6000032> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06088>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6000032";
   schema:latitude 43.71;
   schema:longitude 7.256;
-  schema:name "Nice";
   schema:postalCode "06000";
   schema:price 0.709, 1.779, 1.819, 1.969;
   schema:priceValidUntil "2025-11-29T22:07:33+00:00"^^xsd:dateTime;
   schema:streetAddress "123 Boulevard Gambetta" .
 
 <http://example.org/station/6000036> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06088>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6000036";
   schema:latitude 43.728;
   schema:longitude 7.256;
-  schema:name "Nice";
   schema:postalCode "06000";
   schema:price 1.779, 1.819, 1.969;
   schema:priceValidUntil "2025-11-29T22:08:11+00:00"^^xsd:dateTime, "2025-11-29T22:08:12+00:00"^^xsd:dateTime;
   schema:streetAddress "Boulevard Comté de Falicon" .
 
 <http://example.org/station/6000037> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06088>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6000037";
   schema:latitude 43.717;
   schema:longitude 7.282;
-  schema:name "NICE";
   schema:postalCode "06000";
   schema:price 0.749, 1.754, 1.783, 1.859;
   schema:priceValidUntil "2025-07-05T06:00:00+00:00"^^xsd:dateTime, "2025-11-29T00:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "PONT VINCENT AURIOL" .
 
 <http://example.org/station/6100006> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6100006";
   schema:latitude 43.724;
   schema:longitude 7.256;
-  schema:name "Nice";
   schema:postalCode "06100";
   schema:price 1.779, 1.819, 1.969;
   schema:priceValidUntil "2025-11-29T22:09:51+00:00"^^xsd:dateTime, "2025-11-29T22:09:52+00:00"^^xsd:dateTime;
   schema:streetAddress "63 BOULEVARD GORBELLA" .
 
 <http://example.org/station/6110002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06030>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Le Cannet";
+  ex:stationId "6110002";
   schema:latitude 43.571742369999996;
   schema:longitude 7.016243639999999;
-  schema:name "Le Cannet";
   schema:postalCode "06110";
   schema:price 1.709, 1.739, 1.839;
   schema:priceValidUntil "2025-11-28T23:38:00+00:00"^^xsd:dateTime;
   schema:streetAddress "Boulevard Carnot" .
 
 <http://example.org/station/6110004> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06030>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Le Cannet";
+  ex:stationId "6110004";
   schema:latitude 43.575;
   schema:longitude 7.012;
-  schema:name "Le Cannet";
   schema:postalCode "06110";
   schema:price 0.826, 1.649, 1.689, 1.801;
   schema:priceValidUntil "2025-11-27T06:40:00+00:00"^^xsd:dateTime;
   schema:streetAddress "150 AVENUE DU CAMPON" .
 
 <http://example.org/station/6110006> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06030>;
-  ex:populationType "R";
   ex:priceId "1", "2", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Le Cannet";
+  ex:stationId "6110006";
   schema:latitude 43.573;
   schema:longitude 7.001;
-  schema:name "Le Cannet";
   schema:postalCode "06110";
   schema:price 1.599, 1.639, 1.689, 1.729;
   schema:priceValidUntil "2025-11-28T08:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "46 Avenue Franklin Roosevelt" .
 
 <http://example.org/station/6110008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06030>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Le Cannet";
+  ex:stationId "6110008";
   schema:latitude 43.581;
   schema:longitude 7.007;
-  schema:name "Le Cannet";
   schema:postalCode "06110";
   schema:price 0.812, 1.798, 1.799, 1.899;
   schema:priceValidUntil "2025-10-30T07:17:25+00:00"^^xsd:dateTime, "2025-11-24T09:56:51+00:00"^^xsd:dateTime;
   schema:streetAddress "14 Chemin des Campelières" .
 
 <http://example.org/station/6110009> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06030>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "LE CANNET";
+  ex:stationId "6110009";
   schema:latitude 43.562;
   schema:longitude 6.967;
-  schema:name "LE CANNET";
   schema:postalCode "06110";
   schema:price 1.619, 1.669, 1.782;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "BOULEVARD JEAN MOULIN" .
 
 <http://example.org/station/6110010> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole";
   ex:locatedInCommune <http://example.org/commune/06030>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Le Cannet";
+  ex:stationId "6110010";
   schema:latitude 43.569;
   schema:longitude 6.996;
-  schema:name "Le Cannet";
   schema:postalCode "06110";
   schema:price 0.678, 1.629, 1.659;
   schema:priceValidUntil "2025-10-02T07:39:58+00:00"^^xsd:dateTime, "2025-11-26T06:58:23+00:00"^^xsd:dateTime;
   schema:streetAddress "ZAC Les Mimosas, 374 Av. Général de Gaulle" .
 
 <http://example.org/station/6130001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "GPLc", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06069>;
-  ex:populationType "R";
   ex:priceId "1", "3", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "GRASSE";
+  ex:stationId "6130001";
   schema:latitude 43.635;
   schema:longitude 6.952;
-  schema:name "GRASSE";
   schema:postalCode "06130";
   schema:price 0.649, 0.901, 1.638, 1.682, 1.781;
   schema:priceValidUntil "2025-11-28T09:06:35+00:00"^^xsd:dateTime, "2025-11-28T09:06:36+00:00"^^xsd:dateTime;
   schema:streetAddress "158 route de cannes" .
 
 <http://example.org/station/6130007> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06069>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Grasse";
+  ex:stationId "6130007";
   schema:latitude 43.652;
   schema:longitude 6.946;
-  schema:name "Grasse";
   schema:postalCode "06130";
   schema:price 0.648, 1.663, 1.68, 1.782;
   schema:priceValidUntil "2025-11-25T10:47:42+00:00"^^xsd:dateTime, "2025-11-25T10:47:43+00:00"^^xsd:dateTime;
   schema:streetAddress "CHEMIN DE L'ORME" .
 
 <http://example.org/station/6130008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06069>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Grasse";
+  ex:stationId "6130008";
   schema:latitude 43.648;
   schema:longitude 6.915;
-  schema:name "Grasse";
   schema:postalCode "06130";
   schema:price 0.812, 1.693, 1.71, 1.822;
   schema:priceValidUntil "2025-11-25T15:40:00+00:00"^^xsd:dateTime;
   schema:streetAddress "35 Avenue de la Libération" .
 
 <http://example.org/station/6130009> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06069>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "GRASSE";
+  ex:stationId "6130009";
   schema:latitude 43.633;
   schema:longitude 6.958;
-  schema:name "GRASSE";
   schema:postalCode "06130";
   schema:price 0.699, 1.769, 1.809, 1.999;
   schema:priceValidUntil "2025-11-28T10:16:31+00:00"^^xsd:dateTime, "2025-11-28T10:16:32+00:00"^^xsd:dateTime;
   schema:streetAddress "111 Route de la Paoute" .
 
 <http://example.org/station/6130010> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06069>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "GRASSE";
+  ex:stationId "6130010";
   schema:latitude 43.654;
   schema:longitude 6.943;
-  schema:name "GRASSE";
   schema:postalCode "06130";
   schema:price 1.736, 1.773, 1.883;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "QUARTIER MOULIN DE BRUN RD.4" .
 
 <http://example.org/station/6130012> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06069>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "PLASCASSIER - GRASSE";
+  ex:stationId "6130012";
   schema:latitude 43.639023713571;
   schema:longitude 6.9763076001534;
-  schema:name "PLASCASSIER - GRASSE";
   schema:postalCode "06130";
   schema:price 0.649, 1.664, 1.681, 1.783;
   schema:priceValidUntil "2025-11-24T12:20:00+00:00"^^xsd:dateTime;
   schema:streetAddress "1 CHEMIN DU CASTELLARAS" .
 
 <http://example.org/station/6130013> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06069>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Grasse";
+  ex:stationId "6130013";
   schema:latitude 43.641;
   schema:longitude 6.909;
-  schema:name "Grasse";
   schema:postalCode "06130";
   schema:price 0.789, 1.699, 1.739, 1.819;
   schema:priceValidUntil "2025-11-20T12:00:41+00:00"^^xsd:dateTime, "2025-11-26T09:50:45+00:00"^^xsd:dateTime,
@@ -1687,146 +1561,98 @@
   schema:streetAddress "13 route de Draguignan" .
 
 <http://example.org/station/6140004> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "GPLc", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06050>, <http://example.org/commune/06148>,
     <http://example.org/commune/06157>;
-  ex:populationType "R";
   ex:priceId "1", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "VENCE";
+  ex:stationId "6140004";
   schema:latitude 43.715025979924;
   schema:longitude 7.117118026644899;
-  schema:name "VENCE";
   schema:postalCode "06140";
   schema:price 0.959, 1.779, 1.829, 1.939;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "891 ROUTE DE ST PAUL" .
 
 <http://example.org/station/6140005> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06050>, <http://example.org/commune/06148>,
     <http://example.org/commune/06157>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "vence";
+  ex:stationId "6140005";
   schema:latitude 43.7251854;
   schema:longitude 7.0962481;
-  schema:name "vence";
   schema:postalCode "06140";
   schema:price 1.719, 1.799, 1.889;
   schema:priceValidUntil "2025-11-28T06:16:14+00:00"^^xsd:dateTime;
   schema:streetAddress "976 avenue rhin et danube" .
 
 <http://example.org/station/6150005> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06029>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "CANNES";
+  ex:stationId "6150005";
   schema:latitude 43.55;
   schema:longitude 6.97;
-  schema:name "CANNES";
   schema:postalCode "06150";
   schema:price 0.678, 1.626, 1.688, 1.788;
   schema:priceValidUntil "2025-11-28T11:28:58+00:00"^^xsd:dateTime;
   schema:streetAddress "Avenue Francis Tonner" .
 
 <http://example.org/station/6150007> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06029>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cannes";
+  ex:stationId "6150007";
   schema:latitude 43.569;
   schema:longitude 6.966;
-  schema:name "Cannes";
   schema:postalCode "06150";
   schema:price 1.598, 1.638, 1.728;
   schema:priceValidUntil "2025-11-29T07:19:54+00:00"^^xsd:dateTime;
   schema:streetAddress "1 AV.VICTOR HUGO" .
 
 <http://example.org/station/6150008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06029>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cannes";
+  ex:stationId "6150008";
   schema:latitude 43.550093803971;
   schema:longitude 6.9580731962168;
-  schema:name "Cannes";
   schema:postalCode "06150";
   schema:price 0.763, 1.622, 1.681, 1.786;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "AEROPORT CANNES MANDELIEU RN 7" .
 
 <http://example.org/station/6150011> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06029>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "CANNES LA BOCCA";
+  ex:stationId "6150011";
   schema:latitude 43.5506;
   schema:longitude 6.9923;
-  schema:name "CANNES LA BOCCA";
   schema:postalCode "06150";
   schema:price 1.779, 1.819, 1.919;
   schema:priceValidUntil "2025-11-29T20:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "56 AVENUE DU DR PICAUD" .
 
 <http://example.org/station/6150012> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "SP98";
   ex:locatedInCommune <http://example.org/commune/06029>;
-  ex:populationType "R";
   ex:priceId "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "CANNES LA BOCCA";
+  ex:stationId "6150012";
   schema:latitude 43.55;
   schema:longitude 6.97;
-  schema:name "CANNES LA BOCCA";
   schema:postalCode "06150";
   schema:price 0.678, 1.592, 1.688;
   schema:priceValidUntil "2025-10-08T07:58:59+00:00"^^xsd:dateTime;
   schema:streetAddress "140 AV FRANCIS TONNER" .
 
 <http://example.org/station/6156001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "GPLc", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06029>;
-  ex:populationType "R";
   ex:priceId "1", "3", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cannes";
+  ex:stationId "6156001";
   schema:latitude 43.571;
   schema:longitude 6.959;
-  schema:name "Cannes";
   schema:postalCode "06150";
   schema:price 0.763, 0.979, 1.62, 1.679, 1.757;
   schema:priceValidUntil "2025-01-17T16:28:40+00:00"^^xsd:dateTime, "2025-11-21T00:40:00+00:00"^^xsd:dateTime,
@@ -1834,36 +1660,24 @@
   schema:streetAddress "Z.I. Les Tourrades" .
 
 <http://example.org/station/6160008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06004>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Antibes";
+  ex:stationId "6160008";
   schema:latitude 43.572753662013;
   schema:longitude 7.101651755897599;
-  schema:name "Antibes";
   schema:postalCode "06160";
   schema:price 1.759, 1.799, 1.899;
   schema:priceValidUntil "2025-11-28T06:30:00+00:00"^^xsd:dateTime;
   schema:streetAddress "122-124 Boulevard Raymond Poincaré" .
 
 <http://example.org/station/6190004> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06104>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Roquebrune-Cap-Martin";
+  ex:stationId "6190004";
   schema:latitude 43.764;
   schema:longitude 7.48;
-  schema:name "Roquebrune-Cap-Martin";
   schema:postalCode "06190";
   schema:price 0.899, 1.719, 1.769, 1.889;
   schema:priceValidUntil "2025-10-27T22:02:00+00:00"^^xsd:dateTime, "2025-11-13T08:46:32+00:00"^^xsd:dateTime,
@@ -1871,297 +1685,195 @@
   schema:streetAddress "171 Avenue Louis Pasteur" .
 
 <http://example.org/station/6190008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06104>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Roquebrune-Cap-Martin";
+  ex:stationId "6190008";
   schema:latitude 43.76394;
   schema:longitude 7.48069;
-  schema:name "Roquebrune-Cap-Martin";
   schema:postalCode "06190";
   schema:price 0.759, 1.679, 1.733, 1.815;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "175 AVENUE PASTEUR - RD 6007" .
 
 <http://example.org/station/6190011> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06104>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "ROQUEBRUNE CAP MARTIN";
+  ex:stationId "6190011";
   schema:latitude 43.762348422213;
   schema:longitude 7.457574677783099;
-  schema:name "ROQUEBRUNE CAP MARTIN";
   schema:postalCode "06190";
   schema:price 1.789, 1.849, 1.949;
   schema:priceValidUntil "2025-11-28T06:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "Avenue de la côte d'Azur, 83" .
 
-<http://example.org/station/62000015> ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
+<http://example.org/station/62000015> a schema:GasStation;
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "62000015";
   schema:latitude 43.678;
   schema:longitude 7.219;
-  schema:name "NICE";
   schema:postalCode "06200";
-  schema:price 1.779;
-  a schema:GasStation;
-  schema:price 1.819, 1.919;
+  schema:price 1.779, 1.819, 1.919;
   schema:priceValidUntil "2025-11-29T20:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "61 AVENUE STE MARGUERITE" .
 
 <http://example.org/station/6200014> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6200014";
   schema:latitude 43.759;
   schema:longitude 7.2;
-  schema:name "Nice";
   schema:postalCode "06200";
   schema:price 1.638, 1.695, 1.8;
   schema:priceValidUntil "2025-11-29T05:56:00+00:00"^^xsd:dateTime;
   schema:streetAddress "Route de Grenoble" .
 
 <http://example.org/station/6200026> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6200026";
   schema:latitude 43.68588;
   schema:longitude 7.23677;
-  schema:name "NICE";
   schema:postalCode "06200";
   schema:price 1.729, 1.779, 1.889;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "217 PROMENADE DES ANGLAIS" .
 
 <http://example.org/station/6200027> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6200027";
   schema:latitude 43.68801625970001;
   schema:longitude 7.197364288269999;
-  schema:name "NICE";
   schema:postalCode "06200";
   schema:price 0.756, 1.629, 1.679, 1.779;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "280 ROUTE DE GRENOBLE" .
 
 <http://example.org/station/6200028> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "GPLc", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6200028";
   schema:latitude 43.675;
   schema:longitude 7.227;
-  schema:name "NICE";
   schema:postalCode "06200";
   schema:price 0.765, 0.949, 1.742, 1.779, 1.889;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "PROMENADE DES ANGLAIS" .
 
 <http://example.org/station/6200031> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6200031";
   schema:latitude 43.665;
   schema:longitude 7.201;
-  schema:name "Nice";
   schema:postalCode "06200";
   schema:price 0.749, 1.749, 1.789, 1.839;
   schema:priceValidUntil "2025-11-28T14:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "Aéroport Nice Côte d'Azur" .
 
 <http://example.org/station/6200032> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6200032";
   schema:latitude 43.67;
   schema:longitude 7.217;
-  schema:name "NICE";
   schema:postalCode "06200";
   schema:price 0.709, 1.729, 1.769, 1.859;
   schema:priceValidUntil "2025-11-29T22:09:13+00:00"^^xsd:dateTime, "2025-11-29T22:09:14+00:00"^^xsd:dateTime;
   schema:streetAddress "ZAC ARENAS 125 BD RENE CASSIN" .
 
 <http://example.org/station/6200033> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6200033";
   schema:latitude 43.687258275145005;
   schema:longitude 7.2274375422793;
-  schema:name "Nice";
   schema:postalCode "06200";
   schema:price 1.757, 1.784, 1.894;
   schema:priceValidUntil "2025-11-27T06:59:06+00:00"^^xsd:dateTime, "2025-11-27T06:59:07+00:00"^^xsd:dateTime;
   schema:streetAddress "61 Boulevard Napoléon III" .
 
 <http://example.org/station/6201001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "GPLc", "Gazole", "SP95", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "2", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6201001";
   schema:latitude 43.73;
   schema:longitude 7.186;
-  schema:name "Nice";
   schema:postalCode "06200";
   schema:price 0.94, 1.614, 1.659, 1.716, 1.764;
   schema:priceValidUntil "2025-11-04T05:42:23+00:00"^^xsd:dateTime, "2025-11-29T14:57:00+00:00"^^xsd:dateTime;
   schema:streetAddress "606 boulevard du mercantour" .
 
 <http://example.org/station/6201002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP95", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "2", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6201002";
   schema:latitude 43.71005;
   schema:longitude 7.18846;
-  schema:name "Nice";
   schema:postalCode "06200";
   schema:price 1.614, 1.659, 1.714, 1.764;
   schema:priceValidUntil "2025-11-29T08:01:28+00:00"^^xsd:dateTime;
   schema:streetAddress "456 Boulevard du Mercantour - Quartier Saint Isidore" .
 
 <http://example.org/station/6210009> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06079>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Mandelieu-la-Napoule";
+  ex:stationId "6210009";
   schema:latitude 43.522;
   schema:longitude 6.899;
-  schema:name "Mandelieu-la-Napoule";
   schema:postalCode "06210";
   schema:price 0.699, 1.689, 1.749, 1.859;
   schema:priceValidUntil "2025-11-29T22:04:51+00:00"^^xsd:dateTime, "2025-11-29T22:04:52+00:00"^^xsd:dateTime;
   schema:streetAddress "ROUTE NATIONALE 7" .
 
-<http://example.org/station/6210010> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
-  ex:fuelType "E10", "E85", "GPLc", "Gazole", "SP98";
+<http://example.org/station/6210010> ex:fuelType "E10", "E85", "GPLc", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06079>;
-  ex:populationType "R";
-  ex:priceId "1", "3", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "MANDELIEU LA NAPOULE";
+  ex:priceId "1";
+  a schema:GasStation;
+  ex:priceId "3", "4", "5", "6";
+  ex:stationId "6210010";
   schema:latitude 43.534;
   schema:longitude 6.934;
-  schema:name "MANDELIEU LA NAPOULE";
   schema:postalCode "06210";
   schema:price 0.679, 0.946, 1.629, 1.649, 1.742;
   schema:priceValidUntil "2025-11-28T12:20:52+00:00"^^xsd:dateTime, "2025-11-28T12:20:53+00:00"^^xsd:dateTime;
   schema:streetAddress "AVENUE DE FREJUS" .
 
 <http://example.org/station/6220003> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06155>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "VALLAURIS";
+  ex:stationId "6220003";
   schema:latitude 43.56968;
   schema:longitude 7.04684;
-  schema:name "VALLAURIS";
   schema:postalCode "06220";
   schema:price 0.678, 1.605, 1.686, 1.78;
   schema:priceValidUntil "2025-10-04T05:37:43+00:00"^^xsd:dateTime, "2025-11-28T06:45:30+00:00"^^xsd:dateTime;
   schema:streetAddress "117 Vieille Route de Cannes" .
 
 <http://example.org/station/6220005> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06155>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Golfe-Juan";
+  ex:stationId "6220005";
   schema:latitude 43.58;
   schema:longitude 7.062;
-  schema:name "Golfe-Juan";
   schema:postalCode "06220";
   schema:price 1.736, 1.785, 1.895;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "RN7 LA BATTERIE" .
 
 <http://example.org/station/6220006> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06155>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "VALLAURIS";
+  ex:stationId "6220006";
   schema:latitude 43.593;
   schema:longitude 7.057;
-  schema:name "VALLAURIS";
   schema:postalCode "06220";
   schema:price 0.678, 1.649, 1.659, 1.749;
   schema:priceValidUntil "2025-10-24T09:29:15+00:00"^^xsd:dateTime, "2025-11-10T08:15:35+00:00"^^xsd:dateTime,
@@ -2169,342 +1881,228 @@
   schema:streetAddress "1750 CHEMIN SAINT BERNARD" .
 
 <http://example.org/station/6230002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06121>, <http://example.org/commune/06159>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Villefranche-sur-Mer";
+  ex:stationId "6230002";
   schema:latitude 43.706;
   schema:longitude 7.301;
-  schema:name "Villefranche-sur-Mer";
   schema:postalCode "06230";
   schema:price 1.684, 1.728, 1.798;
   schema:priceValidUntil "2025-11-29T05:55:00+00:00"^^xsd:dateTime;
   schema:streetAddress "1 Boulevard de la Corne d'Or" .
 
 <http://example.org/station/6230003> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06121>, <http://example.org/commune/06159>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Villefranche-sur-Mer";
+  ex:stationId "6230003";
   schema:latitude 43.706;
   schema:longitude 7.32;
-  schema:name "Villefranche-sur-Mer";
   schema:postalCode "06230";
   schema:price 1.772, 1.813, 1.923;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "1280 BOULEVARD NAPOLEON 3" .
 
 <http://example.org/station/6240004> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06012>;
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Beausoleil";
+  ex:stationId "6240004";
   schema:latitude 43.744768107496;
   schema:longitude 7.4266167809815995;
-  schema:name "Beausoleil";
   schema:postalCode "06240";
   schema:price 1.782, 1.859, 1.918;
   schema:priceValidUntil "2025-11-27T06:39:56+00:00"^^xsd:dateTime;
   schema:streetAddress "96 avenue Prince Rainier III" .
 
 <http://example.org/station/6240006> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "GPLc", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06012>;
-  ex:populationType "A";
   ex:priceId "1", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Beausoleil";
+  ex:stationId "6240006";
   schema:latitude 43.75;
   schema:longitude 7.423;
-  schema:name "Beausoleil";
   schema:postalCode "06240";
   schema:price 0.999, 1.827, 1.837, 1.935;
   schema:priceValidUntil "2025-11-19T12:51:26+00:00"^^xsd:dateTime, "2025-11-25T09:32:12+00:00"^^xsd:dateTime;
   schema:streetAddress "A8 Aire de la Riviera Française" .
 
 <http://example.org/station/6250001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06085>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "MOUGINS";
+  ex:stationId "6250001";
   schema:latitude 43.579827627633996;
   schema:longitude 6.9959674750295004;
-  schema:name "MOUGINS";
   schema:postalCode "06250";
   schema:price 0.709, 1.589, 1.699, 1.769;
   schema:priceValidUntil "2025-11-15T08:03:45+00:00"^^xsd:dateTime, "2025-11-29T07:43:52+00:00"^^xsd:dateTime;
   schema:streetAddress "3256 CHEMIN DE CARIMAÏ" .
 
 <http://example.org/station/6250006> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06085>;
-  ex:populationType "A";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "MOUGINS";
+  ex:stationId "6250006";
   schema:latitude 43.59;
   schema:longitude 7.033;
-  schema:name "MOUGINS";
   schema:postalCode "06250";
   schema:price 2.021, 2.139, 2.289;
   schema:priceValidUntil "2025-11-29T09:30:00+00:00"^^xsd:dateTime;
   schema:streetAddress "772 chemin de font de currault" .
 
 <http://example.org/station/6250009> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "GPLc", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06085>;
-  ex:populationType "A";
   ex:priceId "1", "3", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "MOUGINS";
+  ex:stationId "6250009";
   schema:latitude 43.584;
   schema:longitude 7.025;
-  schema:name "MOUGINS";
   schema:postalCode "06250";
   schema:price 0.999, 1.819, 1.854, 1.964;
   schema:priceValidUntil "2025-11-29T09:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "AUTOROUTE A8 - AIRE DE LA CÔTE D'AZUR" .
 
 <http://example.org/station/6250010> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06085>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "MOUGINS";
+  ex:stationId "6250010";
   schema:latitude 43.5833864141;
   schema:longitude 7.009567855869999;
-  schema:name "MOUGINS";
   schema:postalCode "06250";
   schema:price 0.769, 1.621, 1.669, 1.782;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "492 ROUTE DU CANNET" .
 
 <http://example.org/station/6250011> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06085>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "MOUGINS";
+  ex:stationId "6250011";
   schema:latitude 43.612;
   schema:longitude 6.978;
-  schema:name "MOUGINS";
   schema:postalCode "06250";
   schema:price 0.709, 1.739, 1.769, 1.939;
   schema:priceValidUntil "2025-11-29T22:09:15+00:00"^^xsd:dateTime;
   schema:streetAddress "1064-1126 AVENUE SAINT MARTIN" .
 
 <http://example.org/station/6260001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06005>, <http://example.org/commune/06008>,
     <http://example.org/commune/06051>, <http://example.org/commune/06076>, <http://example.org/commune/06093>,
     <http://example.org/commune/06096>, <http://example.org/commune/06098>, <http://example.org/commune/06099>,
     <http://example.org/commune/06101>, <http://example.org/commune/06115>, <http://example.org/commune/06124>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "PUGET-THéNIERS";
+  ex:stationId "6260001";
   schema:latitude 43.95599;
   schema:longitude 6.89387;
-  schema:name "PUGET-THéNIERS";
   schema:postalCode "06260";
   schema:price 1.746, 1.799, 1.909;
   schema:priceValidUntil "2025-11-29T18:19:02+00:00"^^xsd:dateTime;
   schema:streetAddress "QUARTIER L'ISLE RN.202" .
 
 <http://example.org/station/6260002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06005>, <http://example.org/commune/06008>,
     <http://example.org/commune/06051>, <http://example.org/commune/06076>, <http://example.org/commune/06093>,
     <http://example.org/commune/06096>, <http://example.org/commune/06098>, <http://example.org/commune/06099>,
     <http://example.org/commune/06101>, <http://example.org/commune/06115>, <http://example.org/commune/06124>;
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "PUGET-THENIERS";
+  ex:stationId "6260002";
   schema:latitude 43.954755139463;
   schema:longitude 6.89044101879;
-  schema:name "PUGET-THENIERS";
   schema:postalCode "06260";
   schema:price 1.669, 1.749, 1.789;
   schema:priceValidUntil "2025-11-27T14:14:14+00:00"^^xsd:dateTime;
   schema:streetAddress "RN 202 Quartier St-Roch" .
 
 <http://example.org/station/6270003> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06161>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Villeneuve-Loubet";
+  ex:stationId "6270003";
   schema:latitude 43.629;
   schema:longitude 7.134;
-  schema:name "Villeneuve-Loubet";
   schema:postalCode "06270";
   schema:price 1.659, 1.699, 1.769;
   schema:priceValidUntil "2025-11-26T05:29:52+00:00"^^xsd:dateTime, "2025-11-26T05:29:53+00:00"^^xsd:dateTime;
   schema:streetAddress "51 Avenue des Maurettes" .
 
 <http://example.org/station/6270004> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "GPLc", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06161>;
-  ex:populationType "R";
   ex:priceId "1", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "VILLENEUVE LOUBET";
+  ex:stationId "6270004";
   schema:latitude 43.64;
   schema:longitude 7.139;
-  schema:name "VILLENEUVE LOUBET";
   schema:postalCode "06270";
   schema:price 0.955, 1.609, 1.649, 1.739;
   schema:priceValidUntil "2025-11-28T10:24:53+00:00"^^xsd:dateTime, "2025-11-29T11:09:24+00:00"^^xsd:dateTime;
   schema:streetAddress "ROUTE DU BORD DE MER" .
 
 <http://example.org/station/6296001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95";
-  ex:populationType "R";
   ex:priceId "1", "2";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6296001";
   schema:latitude 43.6775;
   schema:longitude 7.22636;
-  schema:name "Nice";
   schema:postalCode "06200";
   schema:price 1.764, 1.834;
   schema:priceValidUntil "2025-09-19T11:11:02+00:00"^^xsd:dateTime, "2025-11-07T12:01:11+00:00"^^xsd:dateTime;
   schema:streetAddress "111 Avenue Saint-Augustin" .
 
 <http://example.org/station/6300008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6300008";
   schema:latitude 43.722;
   schema:longitude 7.292;
-  schema:name "Nice";
   schema:postalCode "06300";
   schema:price 1.684, 1.728, 1.802;
   schema:priceValidUntil "2025-11-29T05:56:00+00:00"^^xsd:dateTime;
   schema:streetAddress "11 Boulevard Pierre Sémard" .
 
 <http://example.org/station/6300012> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6300012";
   schema:latitude 43.702;
   schema:longitude 7.294;
-  schema:name "Nice";
   schema:postalCode "06300";
   schema:price 1.818, 1.887, 1.947;
   schema:priceValidUntil "2025-11-07T07:55:37+00:00"^^xsd:dateTime, "2025-11-20T07:51:39+00:00"^^xsd:dateTime;
   schema:streetAddress "10 Corniche André de Joly" .
 
 <http://example.org/station/6300016> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6300016";
   schema:latitude 43.715;
   schema:longitude 7.287;
-  schema:name "NICE";
   schema:postalCode "06300";
   schema:price 1.773, 1.815, 1.925;
   schema:priceValidUntil "2025-11-29T06:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "27 AVENUE DENIS SEMERIA" .
 
 <http://example.org/station/6300018> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "NICE";
+  ex:stationId "6300018";
   schema:latitude 43.72;
   schema:longitude 7.286;
-  schema:name "NICE";
   schema:postalCode "06300";
   schema:price 1.675, 1.719, 1.789;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "93 ROUTE DE TURIN RN 204" .
 
 <http://example.org/station/6300019> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Nice";
+  ex:stationId "6300019";
   schema:latitude 43.702;
   schema:longitude 7.293;
-  schema:name "Nice";
   schema:postalCode "06300";
   schema:price 1.979, 1.99;
   schema:priceValidUntil "2025-09-23T12:56:29+00:00"^^xsd:dateTime, "2025-10-28T14:17:40+00:00"^^xsd:dateTime,
@@ -2512,141 +2110,93 @@
   schema:streetAddress "94 CORNICHE ANDRE DE JOLY" .
 
 <http://example.org/station/6310002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06011>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Beaulieu-sur-Mer";
+  ex:stationId "6310002";
   schema:latitude 43.70743;
   schema:longitude 7.33406;
-  schema:name "Beaulieu-sur-Mer";
   schema:postalCode "06310";
   schema:price 1.772, 1.813, 1.923;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "RN.559 BASSE CORNICHE" .
 
 <http://example.org/station/6320003> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "GPLc", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06032>, <http://example.org/commune/06150>;
-  ex:populationType "A";
   ex:priceId "1", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "La Turbie";
+  ex:stationId "6320003";
   schema:latitude 43.755;
   schema:longitude 7.398;
-  schema:name "La Turbie";
   schema:postalCode "06320";
   schema:price 1.014, 1.847, 1.852, 1.97;
   schema:priceValidUntil "2025-11-28T15:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "AUTOROUTE A8 / ESSO - BP 102 (4391808)" .
 
 <http://example.org/station/6320004> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E85", "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06032>, <http://example.org/commune/06150>;
-  ex:populationType "R";
   ex:priceId "1", "2", "3", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "LA TURBIE";
+  ex:stationId "6320004";
   schema:latitude 43.745;
   schema:longitude 7.392;
-  schema:name "LA TURBIE";
   schema:postalCode "06320";
   schema:price 0.937, 1.837, 1.895, 1.933;
   schema:priceValidUntil "2025-11-20T09:40:03+00:00"^^xsd:dateTime, "2025-11-20T09:40:04+00:00"^^xsd:dateTime;
   schema:streetAddress "Quartier le Prat" .
 
 <http://example.org/station/6320005> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:locatedInCommune <http://example.org/commune/06032>, <http://example.org/commune/06150>;
-  ex:populationType "R";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cap-d'Ail";
+  ex:stationId "6320005";
   schema:latitude 43.725547794194;
   schema:longitude 7.4066304895839;
-  schema:name "Cap-d'Ail";
   schema:postalCode "06320";
   schema:streetAddress "23 MOYENNE CORNICHE ROUTE DE NIC" .
 
 <http://example.org/station/6320006> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06032>, <http://example.org/commune/06150>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cap-d'Ail";
+  ex:stationId "6320006";
   schema:latitude 43.72306286293401;
   schema:longitude 7.3977043091927;
-  schema:name "Cap-d'Ail";
   schema:postalCode "06320";
   schema:price 1.774, 1.809, 1.919;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "77 AVENUE DU 3 SEPTEMBRE" .
 
 <http://example.org/station/6330002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06105>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Roquefort-les-Pins";
+  ex:stationId "6330002";
   schema:latitude 43.668;
   schema:longitude 7.043;
-  schema:name "Roquefort-les-Pins";
   schema:postalCode "06330";
   schema:price 1.654, 1.714, 1.829;
   schema:priceValidUntil "2025-11-27T11:25:11+00:00"^^xsd:dateTime, "2025-11-27T11:25:12+00:00"^^xsd:dateTime;
   schema:streetAddress "PLAN DE ROQUEFORT" .
 
-<http://example.org/station/6330003> ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
+<http://example.org/station/6330003> a schema:GasStation;
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06105>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Roquefort-les-Pins";
+  ex:stationId "6330003";
   schema:latitude 43.667;
   schema:longitude 7.051;
-  a schema:GasStation;
-  schema:name "Roquefort-les-Pins";
   schema:postalCode "06330";
   schema:price 0.789, 1.759, 1.803, 1.913;
   schema:priceValidUntil "2025-11-10T12:10:03+00:00"^^xsd:dateTime, "2025-11-28T06:52:37+00:00"^^xsd:dateTime;
   schema:streetAddress "RD 2085" .
 
 <http://example.org/station/6340001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06031>, <http://example.org/commune/06054>,
     <http://example.org/commune/06149>;
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Drap";
+  ex:stationId "6340001";
   schema:latitude 43.757;
   schema:longitude 7.32;
-  schema:name "Drap";
   schema:postalCode "06340";
   schema:price 1.75, 1.79, 1.84;
   schema:priceValidUntil "2025-11-07T09:02:11+00:00"^^xsd:dateTime, "2025-11-14T08:42:41+00:00"^^xsd:dateTime,
@@ -2654,231 +2204,153 @@
   schema:streetAddress "19 Avenue du Général de Gaulle" .
 
 <http://example.org/station/6340002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06031>, <http://example.org/commune/06054>,
     <http://example.org/commune/06149>;
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cantaron";
+  ex:stationId "6340002";
   schema:latitude 43.77513;
   schema:longitude 7.3353;
-  schema:name "Cantaron";
   schema:postalCode "06340";
   schema:price 1.72, 1.76, 1.81;
   schema:priceValidUntil "2025-11-14T08:00:00+00:00"^^xsd:dateTime, "2025-11-21T08:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "240 Voie Communale des Plans de la Bégude" .
 
 <http://example.org/station/6345001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "La Trinité";
+  ex:stationId "6345001";
   schema:latitude 43.743310338554004;
   schema:longitude 7.3213261846714;
-  schema:name "La Trinité";
   schema:postalCode "06345";
   schema:price 0.688, 1.71, 1.719, 1.81;
   schema:priceValidUntil "2025-11-20T08:33:31+00:00"^^xsd:dateTime, "2025-11-25T08:54:26+00:00"^^xsd:dateTime;
   schema:streetAddress "31 Route de Laghet" .
 
 <http://example.org/station/6370002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06084>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Mouans Sartoux";
+  ex:stationId "6370002";
   schema:latitude 43.61390093000001;
   schema:longitude 6.97646643;
-  schema:name "Mouans Sartoux";
   schema:postalCode "06370";
   schema:price 0.692, 1.661, 1.678, 1.777;
   schema:priceValidUntil "2025-11-25T13:06:16+00:00"^^xsd:dateTime, "2025-11-25T13:06:17+00:00"^^xsd:dateTime;
   schema:streetAddress "1005 chemin des Gourettes" .
 
 <http://example.org/station/6380002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06086>, <http://example.org/commune/06136>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Sospel";
+  ex:stationId "6380002";
   schema:latitude 43.87380862385;
   schema:longitude 7.4478779887466;
-  schema:name "Sospel";
   schema:postalCode "06380";
   schema:price 1.715, 1.821, 1.899;
   schema:priceValidUntil "2025-08-20T09:58:53+00:00"^^xsd:dateTime, "2025-08-20T09:58:54+00:00"^^xsd:dateTime;
   schema:streetAddress "Moulin Ricci - Route de la Pénétrante" .
 
 <http://example.org/station/6400001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cannes";
+  ex:stationId "6400001";
   schema:latitude 43.5553;
   schema:longitude 7.02483;
-  schema:name "Cannes";
   schema:postalCode "06400";
   schema:price 1.729, 1.773, 1.883;
   schema:priceValidUntil "2025-11-27T08:19:50+00:00"^^xsd:dateTime, "2025-11-29T09:10:41+00:00"^^xsd:dateTime;
   schema:streetAddress "26 Boulevard de la République" .
 
 <http://example.org/station/6400004> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cannes";
+  ex:stationId "6400004";
   schema:latitude 43.547;
   schema:longitude 7.046;
-  schema:name "Cannes";
   schema:postalCode "06400";
   schema:price 1.631, 1.69, 1.769;
   schema:priceValidUntil "2025-11-29T05:55:00+00:00"^^xsd:dateTime;
   schema:streetAddress "106 Avenue Maréchal Juin" .
 
 <http://example.org/station/6400005> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cannes";
+  ex:stationId "6400005";
   schema:latitude 43.54738;
   schema:longitude 7.04418;
-  schema:name "Cannes";
   schema:postalCode "06400";
   schema:price 1.9, 1.95, 1.97;
   schema:priceValidUntil "2025-11-19T16:43:32+00:00"^^xsd:dateTime;
   schema:streetAddress "96 Avenue Maréchal Juin" .
 
 <http://example.org/station/6400010> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
-  ex:populationType "R";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "CANNES";
+  ex:stationId "6400010";
   schema:latitude 43.55857;
   schema:longitude 7.00235;
-  schema:name "CANNES";
   schema:postalCode "06400";
   schema:streetAddress "57 BD DU RIOU" .
 
 <http://example.org/station/6400013> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "CANNES";
+  ex:stationId "6400013";
   schema:latitude 43.552;
   schema:longitude 7.006;
-  schema:name "CANNES";
   schema:postalCode "06400";
   schema:price 1.729, 1.789, 1.939;
   schema:priceValidUntil "2025-11-29T22:07:57+00:00"^^xsd:dateTime;
   schema:streetAddress "19-21 BD VALLOMBROSA" .
 
 <http://example.org/station/6410003> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06018>;
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "BIOT";
+  ex:stationId "6410003";
   schema:latitude 43.62474;
   schema:longitude 7.10244;
-  schema:name "BIOT";
   schema:postalCode "06410";
   schema:price 1.739, 1.819, 1.879;
   schema:priceValidUntil "2025-11-10T11:22:43+00:00"^^xsd:dateTime, "2025-11-10T11:22:44+00:00"^^xsd:dateTime;
   schema:streetAddress "518 Route de la Mer" .
 
 <http://example.org/station/6420001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06009>, <http://example.org/commune/06042>,
     <http://example.org/commune/06072>, <http://example.org/commune/06073>, <http://example.org/commune/06080>,
     <http://example.org/commune/06102>, <http://example.org/commune/06110>, <http://example.org/commune/06111>,
     <http://example.org/commune/06129>, <http://example.org/commune/06144>, <http://example.org/commune/06146>,
     <http://example.org/commune/06153>;
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "ISOLA";
+  ex:stationId "6420001";
   schema:latitude 44.184;
   schema:longitude 7.056;
-  schema:name "ISOLA";
   schema:postalCode "06420";
   schema:price 1.881, 1.979, 1.998;
   schema:priceValidUntil "2025-11-18T08:52:19+00:00"^^xsd:dateTime;
   schema:streetAddress "Quartier Saint-Pierre" .
 
 <http://example.org/station/6430001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "SP95";
   ex:locatedInCommune <http://example.org/commune/06162>, <http://example.org/commune/06163>;
-  ex:populationType "R";
   ex:priceId "2";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Tende";
+  ex:stationId "6430001";
   schema:latitude 44.087683067888;
   schema:longitude 7.5937221262687;
-  schema:name "Tende";
   schema:postalCode "06430";
   schema:price 1.87;
   schema:priceValidUntil "2025-11-14T15:52:09+00:00"^^xsd:dateTime;
   schema:streetAddress "Quartier celestrera" .
 
 <http://example.org/station/6440001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06019>, <http://example.org/commune/06057>,
     <http://example.org/commune/06077>, <http://example.org/commune/06091>, <http://example.org/commune/06092>,
     <http://example.org/commune/06142>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "BLAUSASC";
+  ex:stationId "6440001";
   schema:latitude 43.77850599999999;
   schema:longitude 7.338931;
-  schema:name "BLAUSASC";
   schema:postalCode "06440";
   schema:price 0.678, 1.71, 1.72, 1.81;
   schema:priceValidUntil "2025-10-25T11:22:33+00:00"^^xsd:dateTime, "2025-11-14T06:11:04+00:00"^^xsd:dateTime,
@@ -2886,20 +2358,14 @@
   schema:streetAddress "RD 2204 LA POINTE" .
 
 <http://example.org/station/6450002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06013>, <http://example.org/commune/06020>,
     <http://example.org/commune/06074>, <http://example.org/commune/06103>, <http://example.org/commune/06127>,
     <http://example.org/commune/06151>, <http://example.org/commune/06156>;
-  ex:populationType "R";
   ex:priceId "1", "2", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "La Bollène-Vésubie";
+  ex:stationId "6450002";
   schema:latitude 43.993;
   schema:longitude 7.319;
-  schema:name "La Bollène-Vésubie";
   schema:postalCode "06450";
   schema:price 1.759, 1.789, 1.819, 1.859;
   schema:priceValidUntil "2025-11-12T10:21:41+00:00"^^xsd:dateTime, "2025-11-20T05:15:19+00:00"^^xsd:dateTime,
@@ -2907,209 +2373,144 @@
   schema:streetAddress "Quartier Gordolon RM2565" .
 
 <http://example.org/station/6450003> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06013>, <http://example.org/commune/06020>,
     <http://example.org/commune/06074>, <http://example.org/commune/06103>, <http://example.org/commune/06127>,
     <http://example.org/commune/06151>, <http://example.org/commune/06156>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Saint Martin Vésubie";
+  ex:stationId "6450003";
   schema:latitude 44.059;
   schema:longitude 7.26;
-  schema:name "Saint Martin Vésubie";
   schema:postalCode "06450";
   schema:price 0.809, 1.719, 1.739, 1.839;
   schema:priceValidUntil "2025-10-10T17:20:38+00:00"^^xsd:dateTime, "2025-11-12T12:35:03+00:00"^^xsd:dateTime;
   schema:streetAddress "LIEU DIT LE TOURON RM2565 ROUTE DE NICE" .
 
 <http://example.org/station/6460002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06037>, <http://example.org/commune/06058>,
     <http://example.org/commune/06130>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Saint-Vallier-de-Thiey";
+  ex:stationId "6460002";
   schema:latitude 43.698;
   schema:longitude 6.841;
-  schema:name "Saint-Vallier-de-Thiey";
   schema:postalCode "06460";
   schema:price 0.678, 1.717, 1.727, 1.838;
   schema:priceValidUntil "2025-11-28T07:04:12+00:00"^^xsd:dateTime;
   schema:streetAddress "CHEMIN ST ANNE" .
 
 <http://example.org/station/6480002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06044>;
-  ex:populationType "R";
   ex:priceId "1", "2", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "LA COLLE-SUR-LOUP";
+  ex:stationId "6480002";
   schema:latitude 43.674;
   schema:longitude 7.123;
-  schema:name "LA COLLE-SUR-LOUP";
   schema:postalCode "06480";
   schema:price 1.594, 1.645, 1.715, 1.736;
   schema:priceValidUntil "2025-11-29T22:15:00+00:00"^^xsd:dateTime;
   schema:streetAddress "344, Chemin des Moulières" .
 
 <http://example.org/station/6500004> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06035>, <http://example.org/commune/06036>,
     <http://example.org/commune/06067>, <http://example.org/commune/06083>, <http://example.org/commune/06113>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "MENTON";
+  ex:stationId "6500004";
   schema:latitude 43.78;
   schema:longitude 7.482;
-  schema:name "MENTON";
   schema:postalCode "06500";
   schema:price 0.678, 1.689, 1.744, 1.842;
   schema:priceValidUntil "2025-11-28T10:34:54+00:00"^^xsd:dateTime;
   schema:streetAddress "91, route Val des Castagnins" .
 
 <http://example.org/station/6500005> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06035>, <http://example.org/commune/06036>,
     <http://example.org/commune/06067>, <http://example.org/commune/06083>, <http://example.org/commune/06113>;
-  ex:populationType "R";
   ex:priceId "1", "2", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "MENTON";
+  ex:stationId "6500005";
   schema:latitude 43.805;
   schema:longitude 7.487;
-  schema:name "MENTON";
   schema:postalCode "06500";
   schema:price 0.678, 1.689, 1.744, 1.795, 1.842;
   schema:priceValidUntil "2025-11-29T08:32:02+00:00"^^xsd:dateTime;
   schema:streetAddress "45 AV DE ST ROMAN" .
 
 <http://example.org/station/6500008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06035>, <http://example.org/commune/06036>,
     <http://example.org/commune/06067>, <http://example.org/commune/06083>, <http://example.org/commune/06113>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "MENTON";
+  ex:stationId "6500008";
   schema:latitude 43.784;
   schema:longitude 7.521;
-  schema:name "MENTON";
   schema:postalCode "06500";
   schema:price 1.789, 1.829, 1.939;
   schema:priceValidUntil "2025-11-29T06:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "PORTE DE FRANCE" .
 
-<http://example.org/station/6500010> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
-  ex:fuelType "E10", "E85", "Gazole", "SP98";
+<http://example.org/station/6500010> ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06035>, <http://example.org/commune/06036>,
-    <http://example.org/commune/06067>, <http://example.org/commune/06083>, <http://example.org/commune/06113>;
-  ex:populationType "R";
+    <http://example.org/commune/06067>;
+  a schema:GasStation;
+  ex:locatedInCommune <http://example.org/commune/06083>, <http://example.org/commune/06113>;
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "MENTON";
+  ex:stationId "6500010";
   schema:latitude 43.766;
   schema:longitude 7.487;
-  schema:name "MENTON";
   schema:postalCode "06500";
   schema:price 0.779, 1.709, 1.769, 1.919;
   schema:priceValidUntil "2025-11-29T22:04:11+00:00"^^xsd:dateTime, "2025-11-29T22:04:12+00:00"^^xsd:dateTime;
   schema:streetAddress "1 AVENUE GENERAL DE GAULLE" .
 
 <http://example.org/station/6510001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06017>, <http://example.org/commune/06022>,
     <http://example.org/commune/06025>, <http://example.org/commune/06033>, <http://example.org/commune/06047>,
     <http://example.org/commune/06061>, <http://example.org/commune/06064>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Carros";
+  ex:stationId "6510001";
   schema:latitude 43.776;
   schema:longitude 7.199;
-  schema:name "Carros";
   schema:postalCode "06510";
   schema:price 1.83, 1.84, 1.92;
   schema:priceValidUntil "2025-11-19T19:21:11+00:00"^^xsd:dateTime, "2025-11-24T19:29:53+00:00"^^xsd:dateTime;
   schema:streetAddress "854 rd1 QR MOURLANCHINIERS" .
 
 <http://example.org/station/6510003> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06017>, <http://example.org/commune/06022>,
     <http://example.org/commune/06025>, <http://example.org/commune/06033>, <http://example.org/commune/06047>,
     <http://example.org/commune/06061>, <http://example.org/commune/06064>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "GATTIERES";
+  ex:stationId "6510003";
   schema:latitude 43.764;
   schema:longitude 7.2;
-  schema:name "GATTIERES";
   schema:postalCode "06510";
   schema:price 1.595, 1.675, 1.769;
   schema:priceValidUntil "2025-11-28T10:14:25+00:00"^^xsd:dateTime, "2025-11-28T10:14:26+00:00"^^xsd:dateTime;
   schema:streetAddress "345 AV DE LA TOURRE" .
 
 <http://example.org/station/6520001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Grasse";
+  ex:stationId "6520001";
   schema:latitude 43.681;
   schema:longitude 6.969;
-  schema:name "Grasse";
   schema:postalCode "06520";
   schema:price 1.693, 1.71, 1.822;
   schema:priceValidUntil "2025-11-25T15:40:00+00:00"^^xsd:dateTime;
   schema:streetAddress "194 Avenue Auguste Renoir" .
 
 <http://example.org/station/6530002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06026>, <http://example.org/commune/06095>,
     <http://example.org/commune/06118>, <http://example.org/commune/06137>, <http://example.org/commune/06140>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Peymeinade";
+  ex:stationId "6530002";
   schema:latitude 43.64464;
   schema:longitude 6.88496;
-  schema:name "Peymeinade";
   schema:postalCode "06530";
   schema:price 0.678, 1.609, 1.7, 1.807;
   schema:priceValidUntil "2025-10-08T09:41:03+00:00"^^xsd:dateTime, "2025-11-21T15:22:16+00:00"^^xsd:dateTime,
@@ -3117,318 +2518,209 @@
   schema:streetAddress "94 Avenue de Boutiny" .
 
 <http://example.org/station/6530008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06026>, <http://example.org/commune/06095>,
     <http://example.org/commune/06118>, <http://example.org/commune/06137>, <http://example.org/commune/06140>;
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "SAINT-CEZAIRE-SUR-SIAGNE";
+  ex:stationId "6530008";
   schema:latitude 43.650151177447;
   schema:longitude 6.8105790964874;
-  schema:name "SAINT-CEZAIRE-SUR-SIAGNE";
   schema:postalCode "06530";
   schema:price 1.699, 1.75, 1.796;
   schema:priceValidUntil "2025-11-21T04:37:00+00:00"^^xsd:dateTime, "2025-11-28T04:51:00+00:00"^^xsd:dateTime;
   schema:streetAddress "ROUTE DE GRASSE" .
 
 <http://example.org/station/6530009> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95";
   ex:locatedInCommune <http://example.org/commune/06026>, <http://example.org/commune/06095>,
     <http://example.org/commune/06118>, <http://example.org/commune/06137>, <http://example.org/commune/06140>;
-  ex:populationType "R";
   ex:priceId "1", "2";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "LE TIGNET";
+  ex:stationId "6530009";
   schema:latitude 43.634466130711;
   schema:longitude 6.8536449026235;
-  schema:name "LE TIGNET";
   schema:postalCode "06530";
   schema:price 1.619, 1.739;
   schema:priceValidUntil "2025-11-28T08:19:48+00:00"^^xsd:dateTime;
   schema:streetAddress "FAISSE LONGUE" .
 
 <http://example.org/station/6540002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06023>, <http://example.org/commune/06062>,
     <http://example.org/commune/06132>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Breil-sur-Roya";
+  ex:stationId "6540002";
   schema:latitude 43.964;
   schema:longitude 7.524;
-  schema:name "Breil-sur-Roya";
   schema:postalCode "06540";
   schema:price 1.818, 1.828, 1.881;
   schema:priceValidUntil "2025-11-13T17:52:18+00:00"^^xsd:dateTime;
   schema:streetAddress "839 route de LA GIANDOLA" .
 
 <http://example.org/station/6550001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06108>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "La Roquette-sur-Siagne";
+  ex:stationId "6550001";
   schema:latitude 43.576;
   schema:longitude 6.951;
-  schema:name "La Roquette-sur-Siagne";
   schema:postalCode "06550";
   schema:price 1.729, 1.799, 1.869;
   schema:priceValidUntil "2025-08-08T19:33:02+00:00"^^xsd:dateTime, "2025-08-08T19:33:03+00:00"^^xsd:dateTime;
   schema:streetAddress "235 AVE DE LA REPUBLIQUE" .
 
 <http://example.org/station/6550002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06108>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "La Roquette-sur-Siagne";
+  ex:stationId "6550002";
   schema:latitude 43.576;
   schema:longitude 6.952;
-  schema:name "La Roquette-sur-Siagne";
   schema:postalCode "06550";
   schema:price 0.678, 1.629, 1.679, 1.769;
   schema:priceValidUntil "2025-11-27T18:02:14+00:00"^^xsd:dateTime, "2025-11-27T18:02:15+00:00"^^xsd:dateTime;
   schema:streetAddress "Avenue de la République" .
 
 <http://example.org/station/6560001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06152>;
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "VALBONNE";
+  ex:stationId "6560001";
   schema:latitude 43.645;
   schema:longitude 7.049;
-  schema:name "VALBONNE";
   schema:postalCode "06560";
   schema:price 1.596, 1.719, 1.757;
   schema:priceValidUntil "2025-11-28T09:05:49+00:00"^^xsd:dateTime;
   schema:streetAddress "Chemin du Darbousson" .
 
 <http://example.org/station/6560006> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06152>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Valbonne";
+  ex:stationId "6560006";
   schema:latitude 43.626985999999995;
   schema:longitude 6.99861;
-  schema:name "Valbonne";
   schema:postalCode "06560";
   schema:price 0.815, 1.739, 1.781, 1.891;
   schema:priceValidUntil "2025-11-28T18:29:29+00:00"^^xsd:dateTime, "2025-11-28T18:29:30+00:00"^^xsd:dateTime;
   schema:streetAddress "1600 ROUTE DE CANNES" .
 
 <http://example.org/station/6580001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06090>;
-  ex:populationType "R";
   ex:priceId "1", "2", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "PéGOMAS";
+  ex:stationId "6580001";
   schema:latitude 43.592;
   schema:longitude 6.93;
-  schema:name "PéGOMAS";
   schema:postalCode "06580";
   schema:price 0.669, 1.629, 1.669, 1.749, 1.759;
   schema:priceValidUntil "2025-11-27T09:05:08+00:00"^^xsd:dateTime;
   schema:streetAddress "87 Route de la Fènerie" .
 
 <http://example.org/station/6600001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP95", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "2", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "ANTIBES";
+  ex:stationId "6600001";
   schema:latitude 43.603;
   schema:longitude 7.085;
-  schema:name "ANTIBES";
   schema:postalCode "06600";
   schema:price 1.649, 1.679, 1.729, 1.783;
   schema:priceValidUntil "2025-11-28T08:18:00+00:00"^^xsd:dateTime;
   schema:streetAddress "Chemin de Saint-Claude" .
 
 <http://example.org/station/6600007> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "GPLc", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "ANTIBES";
+  ex:stationId "6600007";
   schema:latitude 43.600876047599996;
   schema:longitude 7.12225595196;
-  schema:name "ANTIBES";
   schema:postalCode "06600";
   schema:price 0.959, 1.763, 1.789, 1.899;
   schema:priceValidUntil "2025-11-28T23:39:00+00:00"^^xsd:dateTime, "2025-11-28T23:40:00+00:00"^^xsd:dateTime;
   schema:streetAddress "136 Route de Nice" .
 
 <http://example.org/station/6600008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Antibes";
+  ex:stationId "6600008";
   schema:latitude 43.574;
   schema:longitude 7.124;
-  schema:name "Antibes";
   schema:postalCode "06600";
   schema:price 0.824, 1.689, 1.709, 1.791;
   schema:priceValidUntil "2025-11-29T05:55:00+00:00"^^xsd:dateTime;
   schema:streetAddress "20 Boulevard Maréchal Leclerc" .
 
-<http://example.org/station/6600009> ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
+<http://example.org/station/6600009> a schema:GasStation;
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
-  ex:priceId "1", "5";
-  a schema:GasStation;
-  ex:priceId "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Antibes";
+  ex:priceId "1", "5", "6";
+  ex:stationId "6600009";
   schema:latitude 43.587;
   schema:longitude 7.119;
-  schema:name "Antibes";
   schema:postalCode "06600";
   schema:price 1.689, 1.709, 1.791;
   schema:priceValidUntil "2025-11-29T05:55:00+00:00"^^xsd:dateTime;
   schema:streetAddress "29 BD GENERAL VAUTRIN" .
 
 <http://example.org/station/6600010> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Antibes";
+  ex:stationId "6600010";
   schema:latitude 43.592;
   schema:longitude 7.105;
-  schema:name "Antibes";
   schema:postalCode "06600";
   schema:price 1.648, 1.693, 1.775;
   schema:priceValidUntil "2025-11-29T05:56:00+00:00"^^xsd:dateTime;
   schema:streetAddress "236 Route de Grasse" .
 
 <http://example.org/station/6600012> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95";
-  ex:populationType "R";
   ex:priceId "1", "2";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "ANTIBES";
+  ex:stationId "6600012";
   schema:latitude 43.607;
   schema:longitude 7.124;
-  schema:name "ANTIBES";
   schema:postalCode "06600";
   schema:price 1.724, 1.799;
   schema:priceValidUntil "2025-10-10T09:33:04+00:00"^^xsd:dateTime;
   schema:streetAddress "841 Route de Nice" .
 
 <http://example.org/station/6600022> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "ANTIBES";
+  ex:stationId "6600022";
   schema:latitude 43.589;
   schema:longitude 7.12;
-  schema:name "ANTIBES";
   schema:postalCode "06600";
   schema:price 0.779, 1.769, 1.799, 1.909;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "2 AVENUE DE NICE" .
 
 <http://example.org/station/6600023> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "ANTIBES";
+  ex:stationId "6600023";
   schema:latitude 43.598;
   schema:longitude 7.088;
-  schema:name "ANTIBES";
   schema:postalCode "06600";
   schema:price 1.739, 1.779, 1.889;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "1945 ROUTE DE GRASSE" .
 
 <http://example.org/station/6600024> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "ANTIBES";
+  ex:stationId "6600024";
   schema:latitude 43.59874;
   schema:longitude 7.08726;
-  schema:name "ANTIBES";
   schema:postalCode "06600";
   schema:price 0.759, 1.639, 1.684, 1.783;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "RD 35 1856 RTE DE GRASSE" .
 
 <http://example.org/station/6600026> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Antibes";
+  ex:stationId "6600026";
   schema:latitude 43.590643167347004;
   schema:longitude 7.109473952493801;
-  schema:name "Antibes";
   schema:postalCode "06600";
   schema:price 0.759, 1.659, 1.689, 1.793;
   schema:priceValidUntil "2025-11-19T09:18:14+00:00"^^xsd:dateTime, "2025-11-27T07:50:25+00:00"^^xsd:dateTime,
@@ -3436,71 +2728,47 @@
   schema:streetAddress "Av. Philippe Rochat" .
 
 <http://example.org/station/6600027> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole";
-  ex:populationType "R";
   ex:priceId "1", "3", "5";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "ANTIBES";
+  ex:stationId "6600027";
   schema:latitude 43.577344000000004;
   schema:longitude 7.107005;
-  schema:name "ANTIBES";
   schema:postalCode "06600";
   schema:price 0.678, 1.635, 1.675;
   schema:priceValidUntil "2025-11-28T08:47:37+00:00"^^xsd:dateTime, "2025-11-28T08:47:38+00:00"^^xsd:dateTime;
   schema:streetAddress "15 AVENUE NICOLAS AUSSEL" .
 
 <http://example.org/station/6610002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E85", "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06065>;
-  ex:populationType "R";
   ex:priceId "1", "2", "3", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "LA GAUDE";
+  ex:stationId "6610002";
   schema:latitude 43.732;
   schema:longitude 7.163;
-  schema:name "LA GAUDE";
   schema:postalCode "06610";
   schema:price 0.818, 1.669, 1.776, 1.882;
   schema:priceValidUntil "2025-10-03T10:01:28+00:00"^^xsd:dateTime, "2025-10-03T10:01:29+00:00"^^xsd:dateTime;
   schema:streetAddress "646 ROUTE DE SAINT LAURENT" .
 
 <http://example.org/station/6610005> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06065>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "LA GAUDE";
+  ex:stationId "6610005";
   schema:latitude 43.717648206695;
   schema:longitude 7.1522485398704;
-  schema:name "LA GAUDE";
   schema:postalCode "06610";
   schema:price 1.719, 1.769, 1.842;
   schema:priceValidUntil "2025-11-25T08:52:52+00:00"^^xsd:dateTime, "2025-11-25T08:52:53+00:00"^^xsd:dateTime;
   schema:streetAddress "ROUTE DE CAGNES" .
 
 <http://example.org/station/6640001> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06122>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Saint-Jeannet";
+  ex:stationId "6640001";
   schema:latitude 43.74525;
   schema:longitude 7.14362;
-  schema:name "Saint-Jeannet";
   schema:postalCode "06640";
   schema:price 1.744, 1.778, 1.881;
   schema:priceValidUntil "2025-11-26T08:33:23+00:00"^^xsd:dateTime, "2025-11-26T08:33:48+00:00"^^xsd:dateTime,
@@ -3508,18 +2776,12 @@
   schema:streetAddress "Chemin du Peyron" .
 
 <http://example.org/station/6650002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E85", "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06089>, <http://example.org/commune/06112>;
-  ex:populationType "R";
   ex:priceId "1", "2", "3", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "OPIO";
+  ex:stationId "6650002";
   schema:latitude 43.65814;
   schema:longitude 6.99578;
-  schema:name "OPIO";
   schema:postalCode "06650";
   schema:price 0.8, 1.83, 1.89, 1.96;
   schema:priceValidUntil "2025-06-21T18:43:34+00:00"^^xsd:dateTime, "2025-07-21T17:17:11+00:00"^^xsd:dateTime,
@@ -3527,389 +2789,263 @@
   schema:streetAddress "20 Route de Cannes" .
 
 <http://example.org/station/6650003> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole";
   ex:locatedInCommune <http://example.org/commune/06089>, <http://example.org/commune/06112>;
-  ex:populationType "R";
   ex:priceId "1", "5";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Opio";
+  ex:stationId "6650003";
   schema:latitude 43.668;
   schema:longitude 6.985;
-  schema:name "Opio";
   schema:postalCode "06650";
   schema:price 1.89, 1.98;
   schema:priceValidUntil "2025-10-30T19:09:07+00:00"^^xsd:dateTime;
   schema:streetAddress "Rond Point Font Neuve" .
 
 <http://example.org/station/6650004> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06089>, <http://example.org/commune/06112>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "LE ROURET";
+  ex:stationId "6650004";
   schema:latitude 43.672993340900994;
   schema:longitude 6.9940596192009;
-  schema:name "LE ROURET";
   schema:postalCode "06650";
   schema:price 1.664, 1.68, 1.782;
   schema:priceValidUntil "2025-11-25T08:55:22+00:00"^^xsd:dateTime, "2025-11-25T08:55:23+00:00"^^xsd:dateTime;
   schema:streetAddress "4 ROUTE DE NICE" .
 
 <http://example.org/station/6670007> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06034>, <http://example.org/commune/06046>,
     <http://example.org/commune/06055>, <http://example.org/commune/06075>, <http://example.org/commune/06109>,
     <http://example.org/commune/06117>, <http://example.org/commune/06126>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "COLOMARS";
+  ex:stationId "6670007";
   schema:latitude 43.76;
   schema:longitude 7.2;
-  schema:name "COLOMARS";
   schema:postalCode "06670";
   schema:price 1.629, 1.686, 1.791;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "RD 6202" .
 
 <http://example.org/station/6670008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06034>, <http://example.org/commune/06046>,
     <http://example.org/commune/06055>, <http://example.org/commune/06075>, <http://example.org/commune/06109>,
     <http://example.org/commune/06117>, <http://example.org/commune/06126>;
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Levens";
+  ex:stationId "6670008";
   schema:latitude 43.856;
   schema:longitude 7.227;
-  schema:name "Levens";
   schema:postalCode "06670";
   schema:price 1.963, 2.017, 2.032;
   schema:priceValidUntil "2025-11-20T09:44:35+00:00"^^xsd:dateTime, "2025-11-20T09:44:36+00:00"^^xsd:dateTime;
   schema:streetAddress "2 avenue Charles David" .
 
 <http://example.org/station/6670010> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06034>, <http://example.org/commune/06046>,
     <http://example.org/commune/06055>, <http://example.org/commune/06075>, <http://example.org/commune/06109>,
     <http://example.org/commune/06117>, <http://example.org/commune/06126>;
-  ex:populationType "R";
   ex:priceId "1", "2", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "PLAN DU VAR";
+  ex:stationId "6670010";
   schema:latitude 43.855493454462994;
   schema:longitude 7.1973328111143005;
-  schema:name "PLAN DU VAR";
   schema:postalCode "06670";
   schema:price 1.9, 1.93, 1.99;
   schema:priceValidUntil "2025-11-14T10:18:33+00:00"^^xsd:dateTime;
   schema:streetAddress "483 AVENUE PORTE DES ALPES" .
 
 <http://example.org/station/6670011> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06034>, <http://example.org/commune/06046>,
     <http://example.org/commune/06055>, <http://example.org/commune/06075>, <http://example.org/commune/06109>,
     <http://example.org/commune/06117>, <http://example.org/commune/06126>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Colomars";
+  ex:stationId "6670011";
   schema:latitude 43.762;
   schema:longitude 7.203;
-  schema:name "Colomars";
   schema:postalCode "06670";
   schema:price 1.669, 1.729, 1.829;
   schema:priceValidUntil "2025-11-29T21:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "RN 202 PONT DE LA MANDA" .
 
 <http://example.org/station/6700002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "GPLc", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06123>;
-  ex:populationType "R";
   ex:priceId "1", "3", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "SAINT-LAURENT-DU-VAR";
+  ex:stationId "6700002";
   schema:latitude 43.66566164699999;
   schema:longitude 7.1930421441300005;
-  schema:name "SAINT-LAURENT-DU-VAR";
   schema:postalCode "06700";
   schema:price 0.749, 0.959, 1.749, 1.779, 1.889;
   schema:priceValidUntil "2025-11-28T23:36:00+00:00"^^xsd:dateTime;
   schema:streetAddress "373 Avenue du Général de Gaulle" .
 
 <http://example.org/station/6700005> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP95", "SP98";
   ex:locatedInCommune <http://example.org/commune/06123>;
-  ex:populationType "R";
   ex:priceId "1", "2", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Saint-Laurent-du-Var";
+  ex:stationId "6700005";
   schema:latitude 43.66001;
   schema:longitude 7.18354;
-  schema:name "Saint-Laurent-du-Var";
   schema:postalCode "06700";
   schema:price 1.79, 1.82, 1.85, 1.89;
   schema:priceValidUntil "2025-04-06T08:43:56+00:00"^^xsd:dateTime, "2025-11-12T06:01:13+00:00"^^xsd:dateTime;
   schema:streetAddress "526 ROUTE DES VESPINS (RN7)" .
 
 <http://example.org/station/6700006> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06123>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Saint-Laurent-du-Var";
+  ex:stationId "6700006";
   schema:latitude 43.66868;
   schema:longitude 7.19193;
-  schema:name "Saint-Laurent-du-Var";
   schema:postalCode "06700";
   schema:price 0.769, 1.739, 1.781, 1.891;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "702 AVENUE DU GENERAL DE GAULLE" .
 
 <http://example.org/station/6700008> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06123>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Saint-Laurent-du-Var";
+  ex:stationId "6700008";
   schema:latitude 43.686012971315996;
   schema:longitude 7.1871525112118;
-  schema:name "Saint-Laurent-du-Var";
   schema:postalCode "06700";
   schema:price 0.799, 1.802, 1.829, 1.912;
   schema:priceValidUntil "2025-11-21T16:58:54+00:00"^^xsd:dateTime;
   schema:streetAddress "ZI A4 AVENUE PIERRE ET MARIE CURIE" .
 
 <http://example.org/station/6750002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06003>, <http://example.org/commune/06028>,
     <http://example.org/commune/06134>, <http://example.org/commune/06154>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Séranon";
+  ex:stationId "6750002";
   schema:latitude 43.764;
   schema:longitude 6.656;
-  schema:name "Séranon";
   schema:postalCode "06750";
   schema:price 1.74, 1.76, 1.82;
   schema:priceValidUntil "2025-11-26T16:52:33+00:00"^^xsd:dateTime, "2025-11-26T16:52:34+00:00"^^xsd:dateTime;
   schema:streetAddress "7794 ROUTE NAPOLÉON" .
 
 <http://example.org/station/6770002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "GATTIERES";
+  ex:stationId "6770002";
   schema:latitude 43.7666750087;
   schema:longitude 7.20105991068;
-  schema:name "GATTIERES";
   schema:postalCode "06770";
   schema:price 0.772, 1.629, 1.686, 1.791;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "Z.I. LA MANDA LIEU DIT LA TOUR" .
 
 <http://example.org/station/6800006> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06027>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cagnes-sur-Mer";
+  ex:stationId "6800006";
   schema:latitude 43.657;
   schema:longitude 7.174;
-  schema:name "Cagnes-sur-Mer";
   schema:postalCode "06800";
   schema:price 1.759, 1.819, 1.919;
   schema:priceValidUntil "2025-11-29T20:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "Boulevard de la Plage" .
 
 <http://example.org/station/6800017> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06027>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cagnes-sur-Mer";
+  ex:stationId "6800017";
   schema:latitude 43.665;
   schema:longitude 7.171;
-  schema:name "Cagnes-sur-Mer";
   schema:postalCode "06800";
   schema:price 0.779, 1.739, 1.783, 1.893;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "53 AVENUE DU VAL FLEURI" .
 
 <http://example.org/station/6800018> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06027>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cagnes-sur-Mer";
+  ex:stationId "6800018";
   schema:latitude 43.66223;
   schema:longitude 7.14933;
-  schema:name "Cagnes-sur-Mer";
   schema:postalCode "06800";
   schema:price 1.739, 1.779, 1.889;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "81 AV. DE LA GARE CD 36" .
 
 <http://example.org/station/6800019> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06027>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cagnes-sur-Mer";
+  ex:stationId "6800019";
   schema:latitude 43.65936;
   schema:longitude 7.16732;
-  schema:name "Cagnes-sur-Mer";
   schema:postalCode "06800";
   schema:price 1.625, 1.669, 1.782;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "79 AV.DE NICE" .
 
 <http://example.org/station/6800020> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06027>;
-  ex:populationType "R";
   ex:priceId "1", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cagnes-sur-Mer";
+  ex:stationId "6800020";
   schema:latitude 43.654;
   schema:longitude 7.148;
-  schema:name "Cagnes-sur-Mer";
   schema:postalCode "06800";
   schema:price 1.625, 1.679, 1.782;
   schema:priceValidUntil "2025-11-29T00:01:00+00:00"^^xsd:dateTime;
   schema:streetAddress "RN.7 COTE HIPPODROME" .
 
 <http://example.org/station/6800025> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06027>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Cagnes-sur-Mer";
+  ex:stationId "6800025";
   schema:latitude 43.67;
   schema:longitude 7.125;
-  schema:name "Cagnes-sur-Mer";
   schema:postalCode "06800";
   schema:price 0.829, 1.639, 1.739, 1.829;
   schema:priceValidUntil "2025-11-29T11:56:21+00:00"^^xsd:dateTime;
   schema:streetAddress "5 AVENUE CHEIRON" .
 
 <http://example.org/station/6800029> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "GPLc", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06027>;
-  ex:populationType "R";
   ex:priceId "1", "4", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "CAGNES SUR MER";
+  ex:stationId "6800029";
   schema:latitude 43.66;
   schema:longitude 7.138;
-  schema:name "CAGNES SUR MER";
   schema:postalCode "06800";
   schema:price 0.999, 1.759, 1.799, 1.949;
   schema:priceValidUntil "2025-11-29T22:08:31+00:00"^^xsd:dateTime, "2025-11-29T22:08:32+00:00"^^xsd:dateTime;
   schema:streetAddress "36 AVENUE DES ALPES" .
 
 <http://example.org/station/6800031> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "E10", "E85", "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06027>;
-  ex:populationType "R";
   ex:priceId "1", "3", "5", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "CAGNES SUR MER";
+  ex:stationId "6800031";
   schema:latitude 43.654;
   schema:longitude 7.147;
-  schema:name "CAGNES SUR MER";
   schema:postalCode "06800";
   schema:price 0.799, 1.729, 1.769, 1.869;
   schema:priceValidUntil "2025-11-29T21:00:00+00:00"^^xsd:dateTime;
   schema:streetAddress "26 AVENUE DE CANNES" .
 
 <http://example.org/station/6910002> a schema:GasStation;
-  ex:depCode "06";
-  ex:depName "Alpes-Maritimes";
   ex:fuelType "Gazole", "SP98";
   ex:locatedInCommune <http://example.org/commune/06001>, <http://example.org/commune/06002>,
     <http://example.org/commune/06045>, <http://example.org/commune/06052>, <http://example.org/commune/06081>,
     <http://example.org/commune/06087>, <http://example.org/commune/06097>, <http://example.org/commune/06106>,
     <http://example.org/commune/06107>, <http://example.org/commune/06131>, <http://example.org/commune/06135>;
-  ex:populationType "R";
   ex:priceId "1", "6";
-  ex:regCode "93";
-  ex:regName "Provence-Alpes-Côte d'Azur";
-  schema:addressLocality "Roquesteron";
+  ex:stationId "6910002";
   schema:latitude 43.874;
   schema:longitude 7.004;
-  schema:name "Roquesteron";
   schema:postalCode "06910";
   schema:price 1.799, 1.983;
   schema:priceValidUntil "2025-08-18T22:15:45+00:00"^^xsd:dateTime, "2025-08-18T22:15:46+00:00"^^xsd:dateTime;

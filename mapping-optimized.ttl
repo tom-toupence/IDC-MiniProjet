@@ -14,7 +14,7 @@
 <#CommunesMap> a rr:TriplesMap ;
     rml:logicalSource [
         a rml:LogicalSource ;
-        rml:source "communes-departement06.csv" ;
+        rml:source "communes-france-2025.csv" ;
         rml:referenceFormulation ql:CSV ;
     ] ;
 
@@ -63,14 +63,15 @@
         ]
     ] .
 
-# TriplesMap pour les stations et les prix
+# TriplesMap pour les STATIONS (physiques, sans prix)
+# On groupe par ID de station pour éviter les doublons
 
 <#StationsMap> a rr:TriplesMap ;
     rml:logicalSource [
         a rml:LogicalSource ;
-        rml:source "prix-carburants-Departement06.json" ;
+        rml:source "prix-carburants-quotidien.json" ;
         rml:referenceFormulation ql:JSONPath ;
-        rml:iterator "$[*]" ; # chaque station dans le tableau racine
+        rml:iterator "$[*]" ;
     ] ;
 
     # URI de la station basée sur son id
@@ -85,19 +86,19 @@
         rr:objectMap [ rml:reference "id" ] ;
     ] ;
 
-    # Adresse de la station (spécifique à chaque station)
+    # Adresse de la station
     rr:predicateObjectMap [
         rr:predicate schema:streetAddress ;
         rr:objectMap [ rml:reference "adresse" ] ;
     ] ;
 
-    # Code postal (nécessaire pour la jointure avec les communes)
+    # Code postal (pour jointure)
     rr:predicateObjectMap [
         rr:predicate schema:postalCode ;
         rr:objectMap [ rml:reference "cp" ] ;
     ] ;
 
-    # Coordonnées géographiques de la station (spécifiques)
+    # Coordonnées GPS de la station
     rr:predicateObjectMap [
         rr:predicate schema:latitude ;
         rr:objectMap [
@@ -114,37 +115,7 @@
         ]
     ] ;
 
-    # Type de carburant
-    rr:predicateObjectMap [
-        rr:predicate ex:fuelType ;
-        rr:objectMap [ rml:reference "prix_nom" ] ;
-    ] ;
-
-    # Identifiant interne du prix (prix_id)
-    rr:predicateObjectMap [
-        rr:predicate ex:priceId ;
-        rr:objectMap [ rml:reference "prix_id" ] ;
-    ] ;
-
-    # Valeur du prix
-    rr:predicateObjectMap [
-        rr:predicate schema:price ;
-        rr:objectMap [
-            rml:reference "prix_valeur" ;
-            rr:datatype xsd:decimal
-        ]
-    ] ;
-
-    # Date de mise à jour du prix
-    rr:predicateObjectMap [
-        rr:predicate schema:priceValidUntil ;
-        rr:objectMap [
-            rml:reference "prix_maj" ;
-            rr:datatype xsd:dateTime
-        ]
-    ] ;
-
-    # Jointure entre la commune et la station
+    # Jointure avec la commune
     rr:predicateObjectMap [
         rr:predicate ex:locatedInCommune ;
         rr:objectMap [
@@ -153,5 +124,55 @@
                 rr:child  "cp" ;
                 rr:parent "code_postal" ; 
             ]
+        ]
+    ] .
+
+# TriplesMap pour les PRIX (offres de carburant)
+# Chaque ligne du JSON = une offre de prix
+
+<#PricesMap> a rr:TriplesMap ;
+    rml:logicalSource [
+        a rml:LogicalSource ;
+        rml:source "prix-carburants-quotidien.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$[*]" ;
+    ] ;
+
+    # URI unique pour chaque offre de prix
+    rr:subjectMap [
+        rr:template "http://example.org/station/{id}/price/{prix_id}" ;
+        rr:class schema:Offer ;
+    ] ;
+
+    # Type de carburant
+    rr:predicateObjectMap [
+        rr:predicate ex:fuelType ;
+        rr:objectMap [ rml:reference "prix_nom" ] ;
+    ] ;
+
+    # Prix
+    rr:predicateObjectMap [
+        rr:predicate schema:price ;
+        rr:objectMap [
+            rml:reference "prix_valeur" ;
+            rr:datatype xsd:decimal
+        ]
+    ] ;
+
+    # Date de mise à jour
+    rr:predicateObjectMap [
+        rr:predicate schema:priceValidUntil ;
+        rr:objectMap [
+            rml:reference "prix_maj" ;
+            rr:datatype xsd:dateTime
+        ]
+    ] ;
+
+    # Lien vers la station
+    rr:predicateObjectMap [
+        rr:predicate schema:offeredBy ;
+        rr:objectMap [
+            rr:template "http://example.org/station/{id}" ;
+            rr:termType rr:IRI
         ]
     ] .
