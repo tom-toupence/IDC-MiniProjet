@@ -92,11 +92,11 @@
         rr:objectMap [ rml:reference "adresse" ] ;
     ] ;
 
-    # Code postal (pour jointure)
-    rr:predicateObjectMap [
-        rr:predicate schema:postalCode ;
-        rr:objectMap [ rml:reference "cp" ] ;
-    ] ;
+
+    # rr:predicateObjectMap [
+    #     rr:predicate schema:postalCode ;
+    #     rr:objectMap [ rml:reference "cp" ] ;
+    # ] ;
 
     # Coordonnées GPS de la station
     rr:predicateObjectMap [
@@ -115,14 +115,14 @@
         ]
     ] ;
 
-    # Jointure avec la commune
+    # Jointure avec la commune via code INSEE
     rr:predicateObjectMap [
-        rr:predicate ex:locatedInCommune ;
+        rr:predicate ex:locatedIn ;
         rr:objectMap [
             rr:parentTriplesMap <#CommunesMap> ;
             rr:joinCondition [
-                rr:child  "cp" ;
-                rr:parent "code_postal" ; 
+                rr:child  "com_arm_code" ;
+                rr:parent "code_insee" ; 
             ]
         ]
     ] .
@@ -155,15 +155,6 @@
         rr:objectMap [
             rml:reference "prix_valeur" ;
             rr:datatype xsd:decimal
-        ]
-    ] ;
-
-    # Date de mise à jour
-    rr:predicateObjectMap [
-        rr:predicate schema:priceValidUntil ;
-        rr:objectMap [
-            rml:reference "prix_maj" ;
-            rr:datatype xsd:dateTime
         ]
     ] ;
 
