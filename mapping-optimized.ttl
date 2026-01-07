@@ -5,6 +5,7 @@
 @prefix rml:    <http://semweb.mmlab.be/ns/rml#> .
 @prefix ql:     <http://semweb.mmlab.be/ns/ql#> .
 @prefix schema: <http://schema.org/> .
+@prefix dbo:    <http://dbpedia.org/ontology/> .
 @prefix ex:     <http://example.org/vocab#> .
 
 @base <http://example.org/> .
@@ -42,21 +43,21 @@
         rr:objectMap [ rml:reference "code_postal" ] ;
     ] ;
 
-    # Département
+    # Département (DBpedia)
     rr:predicateObjectMap [
-        rr:predicate ex:departement ;
+        rr:predicate dbo:department ;
         rr:objectMap [ rml:reference "dep_nom" ] ;
     ] ;
 
-    # Région
+    # Région (DBpedia)
     rr:predicateObjectMap [
-        rr:predicate ex:region ;
+        rr:predicate dbo:region ;
         rr:objectMap [ rml:reference "reg_nom" ] ;
     ] ;
 
-    # Population de la commune
+    # Population de la commune (schema.org)
     rr:predicateObjectMap [
-        rr:predicate ex:population ;
+        rr:predicate schema:population ;
         rr:objectMap [
             rml:reference "population" ;
             rr:datatype xsd:integer
@@ -80,9 +81,9 @@
         rr:class schema:GasStation ;
     ] ;
 
-    # Identifiant de la station
+    # Identifiant de la station (schema.org)
     rr:predicateObjectMap [
-        rr:predicate ex:stationId ;
+        rr:predicate schema:identifier ;
         rr:objectMap [ rml:reference "id" ] ;
     ] ;
 
@@ -115,9 +116,9 @@
         ]
     ] ;
 
-    # Jointure avec la commune via code INSEE
+    # Jointure avec la commune via code INSEE (schema.org)
     rr:predicateObjectMap [
-        rr:predicate ex:locatedIn ;
+        rr:predicate schema:containedInPlace ;
         rr:objectMap [
             rr:parentTriplesMap <#CommunesMap> ;
             rr:joinCondition [
@@ -127,7 +128,7 @@
         ]
     ] .
 
-# TriplesMap pour les prix des carburants
+# TriplesMap pour les prix des carburants (offres de vente)
 
 <#PricesMap> a rr:TriplesMap ;
     rml:logicalSource [
@@ -137,19 +138,19 @@
         rml:iterator "$[*]" ;
     ] ;
 
-    # URI unique pour chaque offre de prix
+    # URI unique pour chaque offre de carburant
     rr:subjectMap [
-        rr:template "http://example.org/station/{id}/price/{prix_id}" ;
+        rr:template "http://example.org/station/{id}/fuel/{prix_nom}" ;
         rr:class schema:Offer ;
     ] ;
 
-    # Type de carburant
+    # Type de carburant (schema.org - même si normalement sur Vehicle)
     rr:predicateObjectMap [
-        rr:predicate ex:fuelType ;
+        rr:predicate schema:name ;
         rr:objectMap [ rml:reference "prix_nom" ] ;
     ] ;
 
-    # Prix
+    # Prix du carburant (schema.org)
     rr:predicateObjectMap [
         rr:predicate schema:price ;
         rr:objectMap [
@@ -158,7 +159,7 @@
         ]
     ] ;
 
-    # Lien vers la station
+    # Lien vers la station qui propose cette offre (schema.org)
     rr:predicateObjectMap [
         rr:predicate schema:offeredBy ;
         rr:objectMap [
