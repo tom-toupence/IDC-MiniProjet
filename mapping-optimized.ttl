@@ -19,43 +19,36 @@
         rml:referenceFormulation ql:CSV ;
     ] ;
 
-    # URI de chaque commune basée sur le code INSEE
     rr:subjectMap [
         rr:template "http://example.org/commune/{code_insee}" ;
         rr:class schema:City ;
     ] ;
 
-    # Nom de la commune
-   rr:predicateObjectMap [
+    rr:predicateObjectMap [
         rr:predicate schema:name ;
         rr:objectMap [ rml:reference "nom_standard" ] ;
     ] ;
 
-    # Code INSEE
     rr:predicateObjectMap [
         rr:predicate ex:codeInsee ;
         rr:objectMap [ rml:reference "code_insee" ] ;
     ] ;
 
-    # Code postal
     rr:predicateObjectMap [
         rr:predicate schema:postalCode ;
         rr:objectMap [ rml:reference "code_postal" ] ;
     ] ;
 
-    # Département (DBpedia)
     rr:predicateObjectMap [
         rr:predicate dbo:department ;
         rr:objectMap [ rml:reference "dep_nom" ] ;
     ] ;
 
-    # Région (DBpedia)
     rr:predicateObjectMap [
         rr:predicate dbo:region ;
         rr:objectMap [ rml:reference "reg_nom" ] ;
     ] ;
 
-    # Population de la commune (schema.org)
     rr:predicateObjectMap [
         rr:predicate schema:population ;
         rr:objectMap [
@@ -70,36 +63,26 @@
 <#StationsMap> a rr:TriplesMap ;
     rml:logicalSource [
         a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
         rml:iterator "$[*]" ;
     ] ;
 
-    # URI de la station basée sur son id
     rr:subjectMap [
         rr:template "http://example.org/station/{id}" ;
         rr:class schema:GasStation ;
     ] ;
 
-    # Identifiant de la station (schema.org)
     rr:predicateObjectMap [
         rr:predicate schema:identifier ;
         rr:objectMap [ rml:reference "id" ] ;
     ] ;
 
-    # Adresse de la station
     rr:predicateObjectMap [
         rr:predicate schema:streetAddress ;
         rr:objectMap [ rml:reference "adresse" ] ;
     ] ;
 
-
-    # rr:predicateObjectMap [
-    #     rr:predicate schema:postalCode ;
-    #     rr:objectMap [ rml:reference "cp" ] ;
-    # ] ;
-
-    # Coordonnées GPS de la station
     rr:predicateObjectMap [
         rr:predicate schema:latitude ;
         rr:objectMap [
@@ -116,7 +99,6 @@
         ]
     ] ;
 
-    # Jointure avec la commune via code INSEE (schema.org)
     rr:predicateObjectMap [
         rr:predicate schema:containedInPlace ;
         rr:objectMap [
@@ -133,24 +115,21 @@
 <#PricesMap> a rr:TriplesMap ;
     rml:logicalSource [
         a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
         rml:iterator "$[*]" ;
     ] ;
 
-    # URI unique pour chaque offre de carburant
     rr:subjectMap [
         rr:template "http://example.org/station/{id}/fuel/{prix_nom}" ;
         rr:class schema:Offer ;
     ] ;
 
-    # Type de carburant (schema.org - même si normalement sur Vehicle)
     rr:predicateObjectMap [
         rr:predicate schema:name ;
         rr:objectMap [ rml:reference "prix_nom" ] ;
     ] ;
 
-    # Prix du carburant (schema.org)
     rr:predicateObjectMap [
         rr:predicate schema:price ;
         rr:objectMap [
@@ -159,7 +138,6 @@
         ]
     ] ;
 
-    # Lien vers la station qui propose cette offre (schema.org)
     rr:predicateObjectMap [
         rr:predicate schema:offeredBy ;
         rr:objectMap [
@@ -171,213 +149,152 @@
 # TriplesMap pour les instances d'horaires uniques
 # Crée une instance par combinaison unique d'heures d'ouverture/fermeture
 
-<#HorairesInstancesMap> a rr:TriplesMap ;
+<#HorairesPursMap> a rr:TriplesMap ;
     rml:logicalSource [
         a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien-cleaned.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
+        # On itère sur tous les jours pour créer les blocs horaires
         rml:iterator "$[*].horaires.jour[*]" ;
     ] ;
-
-    # URI unique basée sur l'horaire_id
+    
     rr:subjectMap [
+        # L'ID ne dépend QUE des heures (ex: Horaire_0800_2000)
+        # Pas de station_id ici, pour permettre le partage !
         rr:template "http://example.org/horaire/{horaire_id}" ;
-        rr:class ex:Horaire ;
+        rr:class schema:OpeningHoursSpecification ;
     ] ;
-
-    # Heure d'ouverture (si définie)
+    
     rr:predicateObjectMap [
-        rr:predicate ex:ouverture ;
+        rr:predicate schema:opens ;
         rr:objectMap [
             rml:reference "horaire.@ouverture" ;
             rr:datatype xsd:time
         ]
     ] ;
-
-    # Heure de fermeture (si définie)
+    
     rr:predicateObjectMap [
-        rr:predicate ex:fermeture ;
+        rr:predicate schema:closes ;
         rr:objectMap [
             rml:reference "horaire.@fermeture" ;
             rr:datatype xsd:time
         ]
     ] .
+    # Note : Pas de schema:dayOfWeek ici !
 
 # TriplesMap pour les jours fermés et non définis
 # Traite spécifiquement les horaires sans heures (Ferme et NonDefini)
 
-<#HorairesFermesMap> a rr:TriplesMap ;
+# --- LUNDI ---
+<#LundiMap> a rr:TriplesMap ;
     rml:logicalSource [
-        a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien-cleaned.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
-        rml:iterator "$[*].horaires.jour[?(@.horaire_id == 'Horaire_Ferme')]" ;
-    ] ;
-
-    rr:subjectMap [
-        rr:template "http://example.org/horaire/Horaire_Ferme" ;
-        rr:class ex:Horaire ;
-    ] ;
-
-    rr:predicateObjectMap [
-        rr:predicate ex:ouvert ;
-        rr:objectMap [ 
-            rr:constant "non" ;
-            rr:datatype xsd:string
-        ]
-    ] .
-
-# TriplesMap pour lier les stations aux horaires par jour - LUNDI
-
-<#StationHorairesLundiMap> a rr:TriplesMap ;
-    rml:logicalSource [
-        a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien-cleaned.json" ;
-        rml:referenceFormulation ql:JSONPath ;
+        # On filtre uniquement les Lundis (ID=1)
         rml:iterator "$[*].horaires.jour[?(@['@id'] == '1')]" ;
     ] ;
-
-    rr:subjectMap [
-        rr:template "http://example.org/station/{station_id}" ;
-    ] ;
-
+    rr:subjectMap [ rr:template "http://example.org/station/{station_id}" ] ;
     rr:predicateObjectMap [
-        rr:predicate ex:horaireLundi ;
-        rr:objectMap [
+        rr:predicate ex:openingHoursMonday ;
+        rr:objectMap [ 
             rr:template "http://example.org/horaire/{horaire_id}" ;
-            rr:termType rr:IRI
+            rr:termType rr:IRI 
         ]
     ] .
 
-# TriplesMap pour lier les stations aux horaires par jour - MARDI
-
-<#StationHorairesMardi> a rr:TriplesMap ;
+# --- MARDI ---
+<#MardiMap> a rr:TriplesMap ;
     rml:logicalSource [
-        a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien-cleaned.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
         rml:iterator "$[*].horaires.jour[?(@['@id'] == '2')]" ;
     ] ;
-
-    rr:subjectMap [
-        rr:template "http://example.org/station/{station_id}" ;
-    ] ;
-
+    rr:subjectMap [ rr:template "http://example.org/station/{station_id}" ] ;
     rr:predicateObjectMap [
-        rr:predicate ex:horaireMardi ;
-        rr:objectMap [
+        rr:predicate ex:openingHoursTuesday ;
+        rr:objectMap [ 
             rr:template "http://example.org/horaire/{horaire_id}" ;
-            rr:termType rr:IRI
+            rr:termType rr:IRI 
         ]
     ] .
 
-# TriplesMap pour lier les stations aux horaires par jour - MERCREDI
-
-<#StationHorairesMercredi> a rr:TriplesMap ;
+# --- MERCREDI ---
+<#MercrediMap> a rr:TriplesMap ;
     rml:logicalSource [
-        a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien-cleaned.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
         rml:iterator "$[*].horaires.jour[?(@['@id'] == '3')]" ;
     ] ;
-
-    rr:subjectMap [
-        rr:template "http://example.org/station/{station_id}" ;
-    ] ;
-
+    rr:subjectMap [ rr:template "http://example.org/station/{station_id}" ] ;
     rr:predicateObjectMap [
-        rr:predicate ex:horaireMercredi ;
-        rr:objectMap [
+        rr:predicate ex:openingHoursWednesday ;
+        rr:objectMap [ 
             rr:template "http://example.org/horaire/{horaire_id}" ;
-            rr:termType rr:IRI
+            rr:termType rr:IRI 
         ]
     ] .
 
-# TriplesMap pour lier les stations aux horaires par jour - JEUDI
-
-<#StationHorairesJeudi> a rr:TriplesMap ;
+# --- JEUDI ---
+<#JeudiMap> a rr:TriplesMap ;
     rml:logicalSource [
-        a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien-cleaned.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
         rml:iterator "$[*].horaires.jour[?(@['@id'] == '4')]" ;
     ] ;
-
-    rr:subjectMap [
-        rr:template "http://example.org/station/{station_id}" ;
-    ] ;
-
+    rr:subjectMap [ rr:template "http://example.org/station/{station_id}" ] ;
     rr:predicateObjectMap [
-        rr:predicate ex:horaireJeudi ;
-        rr:objectMap [
+        rr:predicate ex:openingHoursThursday ;
+        rr:objectMap [ 
             rr:template "http://example.org/horaire/{horaire_id}" ;
-            rr:termType rr:IRI
+            rr:termType rr:IRI 
         ]
     ] .
 
-# TriplesMap pour lier les stations aux horaires par jour - VENDREDI
-
-<#StationHorairesVendredi> a rr:TriplesMap ;
+# --- VENDREDI ---
+<#VendrediMap> a rr:TriplesMap ;
     rml:logicalSource [
-        a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien-cleaned.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
         rml:iterator "$[*].horaires.jour[?(@['@id'] == '5')]" ;
     ] ;
-
-    rr:subjectMap [
-        rr:template "http://example.org/station/{station_id}" ;
-    ] ;
-
+    rr:subjectMap [ rr:template "http://example.org/station/{station_id}" ] ;
     rr:predicateObjectMap [
-        rr:predicate ex:horaireVendredi ;
-        rr:objectMap [
+        rr:predicate ex:openingHoursFriday ;
+        rr:objectMap [ 
             rr:template "http://example.org/horaire/{horaire_id}" ;
-            rr:termType rr:IRI
+            rr:termType rr:IRI 
         ]
     ] .
 
-# TriplesMap pour lier les stations aux horaires par jour - SAMEDI
-
-<#StationHorairesSamedi> a rr:TriplesMap ;
+# --- SAMEDI ---
+<#SamediMap> a rr:TriplesMap ;
     rml:logicalSource [
-        a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien-cleaned.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
         rml:iterator "$[*].horaires.jour[?(@['@id'] == '6')]" ;
     ] ;
-
-    rr:subjectMap [
-        rr:template "http://example.org/station/{station_id}" ;
-    ] ;
-
+    rr:subjectMap [ rr:template "http://example.org/station/{station_id}" ] ;
     rr:predicateObjectMap [
-        rr:predicate ex:horaireSamedi ;
-        rr:objectMap [
+        rr:predicate ex:openingHoursSaturday ;
+        rr:objectMap [ 
             rr:template "http://example.org/horaire/{horaire_id}" ;
-            rr:termType rr:IRI
+            rr:termType rr:IRI 
         ]
     ] .
 
-# TriplesMap pour lier les stations aux horaires par jour - DIMANCHE
-
-<#StationHorairesDimanche> a rr:TriplesMap ;
+# --- DIMANCHE ---
+<#DimancheMap> a rr:TriplesMap ;
     rml:logicalSource [
-        a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien-cleaned.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
         rml:iterator "$[*].horaires.jour[?(@['@id'] == '7')]" ;
     ] ;
-
-    rr:subjectMap [
-        rr:template "http://example.org/station/{station_id}" ;
-    ] ;
-
+    rr:subjectMap [ rr:template "http://example.org/station/{station_id}" ] ;
     rr:predicateObjectMap [
-        rr:predicate ex:horaireDimanche ;
-        rr:objectMap [
+        rr:predicate ex:openingHoursSunday ;
+        rr:objectMap [ 
             rr:template "http://example.org/horaire/{horaire_id}" ;
-            rr:termType rr:IRI
+            rr:termType rr:IRI 
         ]
     ] .
 
@@ -386,7 +303,7 @@
 <#Stations24hMap> a rr:TriplesMap ;
     rml:logicalSource [
         a rml:LogicalSource ;
-        rml:source "prix-carburants-quotidien-cleaned.json" ;
+        rml:source "prix-carburants-quotidien-preprocessed.json" ;
         rml:referenceFormulation ql:JSONPath ;
         rml:iterator "$[*]" ;
     ] ;
