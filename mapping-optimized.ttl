@@ -30,7 +30,7 @@
     ] ;
 
     rr:predicateObjectMap [
-        rr:predicate ex:codeInsee ;
+        rr:predicate dbo:inseeCode ;
         rr:objectMap [ rml:reference "code_insee" ] ;
     ] ;
 
