@@ -144,14 +144,14 @@
         ]
     ] ;
 
-    # Jointure entre la commune et la station
+    # Jointure entre la commune et la station (par code INSEE)
     rr:predicateObjectMap [
-        rr:predicate ex:locatedInCommune ;
+        rr:predicate schema:containedInPlace ;
         rr:objectMap [
             rr:parentTriplesMap <#CommunesMap> ;
             rr:joinCondition [
-                rr:child  "cp" ;
-                rr:parent "code_postal" ; 
+                rr:child  "com_arm_code" ;
+                rr:parent "code_insee" ; 
             ]
         ]
     ] .
